@@ -26,32 +26,32 @@
 }
 
 .confetti--heart:before {
-  background: url('/img/heart_confetti.png');
+  background: url('/images/heart_confetti.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .confetti--lightning:before {
-  background: url('/img/lightning_confetti.png');
+  background: url('/images/lightning_confetti.png');
   background-repeat: no-repeat;
   background-size: contain;
   height: 60px;
 }
 
 .confetti--speech:before {
-  background: url('/img/speech_confetti.png');
+  background: url('/images/speech_confetti.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .confetti--smile:before {
-  background: url('/img/smile_confetti.png');
+  background: url('/images/smile_confetti.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .confetti--triangle:before {
-  background: url('/img/triangle_confetti.png');
+  background: url('/images/triangle_confetti.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -436,7 +436,7 @@
 
 .event--time:after {
   content: "";
-  background-image: url("/img/smile_confetti.png");
+  background-image: url("/images/smile_confetti.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-color: white;
@@ -457,7 +457,7 @@
 }
 
 .event .event--day:first-child .event--time:after {
-  background-image: url("/img/heart_confetti.png");
+  background-image: url("/images/heart_confetti.png");
 }
 
 .event .event--day:first-child .event--details:before {
