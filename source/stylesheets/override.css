@@ -1,0 +1,580 @@
+/*------------------------------------------------------
+* Add override styles here or update styles in our fork
+* of the Bootstrap Sass repo:
+* https://github.com/OSFeels/bootstrap-sass
+* -----------------------------------------------------*/
+
+/* -- Confetti Styles */
+.confetti:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin: 25px auto;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.confetti--inline:before {
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+
+.confetti--sm:before {
+  width: 15px;
+  height: 15px;
+}
+
+.confetti--heart:before {
+  background: url('/img/heart_confetti.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.confetti--lightning:before {
+  background: url('/img/lightning_confetti.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+}
+
+.confetti--speech:before {
+  background: url('/img/speech_confetti.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.confetti--smile:before {
+  background: url('/img/smile_confetti.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.confetti--triangle:before {
+  background: url('/img/triangle_confetti.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+/* -- Jumbotron Styles */
+.jumbotron {
+  color: white;
+}
+
+.jumbotron img {
+  width: 60%;
+}
+
+.jumbotron .tagline h2 {
+  font-weight: normal;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.jumbotron .newsletter {
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .jumbotron img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer a {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 460px) {
+  .newsletter .input-group {
+    display: block;
+  }
+
+  .newsletter .input-group input {
+    font-size: 22px;
+  }
+
+  .newsletter .input-group-btn .btn {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .jumbotron img {
+    width: 100vw;
+    margin-left: -50px;
+  }
+
+  .jumbotron .tagline h2 {
+    margin-top: 0;
+    font-size: 25px;
+  }
+}
+
+
+/* -- Sliding Sidebar Navigation */
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+  padding-left: 250px;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #cd499a;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+}
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-decoration: none;
+  list-style-type: none;
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar-nav li a:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: white;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: white;
+  background: none;
+}
+
+
+/* -- Hamburger Menu Animation */
+.spinner-master * {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  box-sizing: border-box;
+}
+
+.hamburger-wrapper {
+  position: fixed;
+  margin-left: 25px;
+  padding: 10px 10px 7px 7px;
+  background-color: #3b2870;
+  z-index: 99;
+}
+
+.spinner-master {
+  position: relative;
+  width: 35px;
+  height: 30px;
+  margin-left: 5%;
+}
+
+.spinner-master input[type=checkbox] {
+  display: none;
+}
+
+.spinner-master label {
+  cursor: pointer;
+  position: absolute;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  margin-bottom: 0;
+}
+
+.spinner-master .spinner {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background-color: white;
+}
+
+.spinner-master .diagonal.part-1 {
+  position: relative;
+  float: left;
+}
+
+.spinner-master .horizontal {
+  position: relative;
+  float: left;
+  margin-top: 7px;
+}
+
+.spinner-master .diagonal.part-2 {
+  position: relative;
+  float: left;
+  margin-top: 6px;
+}
+
+.spinner-master input[type=checkbox]:checked ~ .spinner-spin > .horizontal {
+  opacity: 0;
+}
+
+.spinner-master input[type=checkbox]:checked ~ .spinner-spin > .diagonal.part-1 {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin-top: 10px;
+}
+
+.spinner-master input[type=checkbox]:checked ~ .spinner-spin > .diagonal.part-2 {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  margin-top: -16px;
+}
+
+
+/* -- Callouts */
+.callouts {
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+.callouts h2, .callouts .h2 {
+  margin-bottom: 30px;
+}
+
+.callouts .btn {
+  margin: 35px 0;
+}
+
+.main .callouts:nth-of-type(1) {
+  margin-top: 50px;
+}
+
+.emphasis {
+  font-weight: bold;
+}
+
+.divider {
+  margin-top: 60px;
+}
+
+
+/* -- Conduct */
+.conduct h4, .conduct h5 {
+  margin-top: 35px;
+}
+
+
+/* -- Page Title */
+.page--title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.page--title h1 {
+  margin-top: 0;
+}
+
+.page--title p {
+  margin-top: 35px;
+}
+
+
+/* -- Newsletter */
+.newsletter h2 {
+  margin: 45px 0;
+}
+
+.newsletter input {
+  height: 49px;
+  font-size: 25px;
+  background-color: #E5E5E5;
+  border: 0;
+  border-radius: 0;
+}
+
+.newsletter .input-group-btn {
+  margin-left: 5px;
+}
+
+.newsletter img {
+  display: block;
+  width: 25px;
+  margin: 25px auto;
+}
+
+.newsletter .triangle {
+  margin-top: 90px;
+}
+
+.newsletter .dot {
+  margin-top: 215px;
+}
+
+
+/* --- Speakers Page */
+.speakers--info {
+  margin-bottom: 50px;
+}
+
+.speakers--info-box {
+  min-height: 120px;
+  margin-bottom: 25px;
+}
+
+.speakers--img {
+  float: left;
+  margin: 0 1rem 1rem 0;
+  height: 120px;
+}
+
+.speakers--name {
+  margin-top: 0;
+  text-align: left;
+  line-height: 25px;
+}
+
+.speakers--info:nth-child(2n+1) {
+  clear: left;
+}
+
+.speakers--title,
+.speakers--name {
+  color: #5398be; /* blue */
+}
+
+.speakers--info:nth-child(3n-1) .speakers--title,
+.speakers--info:nth-child(3n-1) .speakers--name {
+  color: #3b2870; /* purple */
+}
+
+.speakers--info:nth-child(3n) .speakers--title,
+.speakers--info:nth-child(3n) .speakers--name {
+  color: #cd499a; /* pink */
+}
+
+.speakers--abstract {
+  text-align: left;
+}
+
+.speakers--contact a {
+  display: block;
+}
+
+
+/* --- Schedule Page */
+.event--day h2 {
+  padding: 20px;
+}
+
+.event--info {
+  width: 40%;
+  float: left;
+  padding-right: 10px;
+}
+
+.event--info .text-center {
+  padding-right: 20px;
+}
+
+.event--details {
+  width: 60%;
+  min-height: 100px;
+  padding-left: 25px;
+  padding-bottom: 30px;
+  float: left;
+  position: relative;
+}
+
+.event--time:after {
+  content: "";
+  background-image: url("/img/smile_confetti.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  float: right;
+}
+
+.event--details:before {
+  content: "";
+  height: 100%;
+  width: 1.75px;
+  background-color: #5398be;
+  position: absolute;
+  left: -21px;
+  top: 20px;
+  z-index: -1;
+}
+
+.event .event--day:first-child .event--time:after {
+  background-image: url("/img/heart_confetti.png");
+}
+
+.event .event--day:first-child .event--details:before {
+  background-color: #f2cd5d;
+}
+
+.event--item:last-of-type .event--details:before {
+  height: 0;
+}
+
+@media (max-width: 990px) {
+  .event--info { width: 25%; }
+  .event--details { width: 75%; }
+}
+
+@media (max-width: 770px) {
+  .event--details { padding-left: 5px; }
+}
+
+@media (max-width: 550px) {
+  .event--info { width: 35%; }
+
+  .event--details {
+    width: 65%;
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .event--info { width: 40%; }
+
+  .event--details {
+    width: 60%;
+    padding-left: 3px;
+  }
+}
+
+@media (max-width: 400px) {
+  .event--info { width: 45%; }
+  .event--details { width: 55%; }
+}
+
+
+/* --- Sponsorship Page */
+.sponsors--cta .btn {
+  margin-top: 0;
+}
+
+.sponsors--level.callouts {
+  margin-top: 50px;
+}
+
+.sponsors--level h2 {
+  margin-bottom: 0;
+}
+
+.sponsors--level h3 a {
+  color: #cd499a;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.sponsors--level .committer img {
+  height: 70px;
+}
+
+.sponsors--level .contributor img {
+  max-width: 100%;
+  max-height: 65px;
+}
+
+.sponsors--level .padded-logo {
+  padding: 20px 0;
+}
+
+.sponsors--level .committer.temp a {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.sponsors--level .temp.lowercase a {
+  text-transform: lowercase;
+}
+
+.sponsors--level .contributor.temp a {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.sponsors--section {
+  margin-top: 30px;
+}
+
+/* -- Visiting Page */
+
+a.pink {
+  color: #cd499a;
+}
+
+/* -- Footer */
+.footer {
+  margin-top: 100px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.footer a {
+  font-size: 20px;
+  letter-spacing: 1px;
+}

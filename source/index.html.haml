@@ -1,0 +1,33 @@
+.row.callouts
+  .col-md-4.confetti.confetti--speech
+    %h2.pink Why<br>Open Source?
+    %p While successful from a technical or business perspective, on the human side of things, the promise of the Open Source Software community has gone unfulfilled. Open Source culture, left to grow untended, has been co-opted, diluted, and leaves too many individuals behind. It is a garden in need of tending, with too few gardeners available—we want to change that.
+  .col-md-4.confetti.confetti--smile
+    %h2.blue Why<br>Feelings?
+    %p Writing software can be emotionally difficult. Some of us talk about it with others, but many of us don’t, or aren’t encouraged to share. We need to be sharing our struggles, however, as we are the most natural support for each other. Being supportive and using this support takes practice and it takes intention.
+  .col-md-4.confetti.confetti--heart
+    %h2.purple Why Open Source & Feelings?
+    %p Open Source & Feelings is about the intersection between software and the humanities, and how we engage with the communities we're a part of. It is about deliberative crafting of its culture into what we want it to be, about developing strategies, skills, and solutions in order work as a community.
+
+.row.callouts.confetti.confetti--heart
+  .col-md-8.col-md-offset-2
+    %h2.blue Where & When
+    %p.purple.lead.text-center
+      Friday & Saturday<br />
+      %strong October 2nd & 3rd, 2015
+    
+    %address.purple.lead.text-center
+      %a{ href: "http://wp.seattlecentral.edu/broadway-performance-hall/" }
+        %strong Broadway Performance Hall
+      %br
+      1625 Broadway
+      = link_to "(map)", "https://www.openstreetmap.org/way/137775893#map=14/47.6140/-122.3227&layers=H", class: "pink"
+      %br
+      Seattle, WA
+
+//See also, jumbotron in layout
+.confetti.confetti--lightning
+  .row.newsletter
+    .col-md-2= tag :img, src: "images/triangle_confetti.png", class: "triangle"
+    .col-md-8= partial :mailing_list
+    .col-md-2= tag :img, src: "images/dot_confetti.png", class: "dot"

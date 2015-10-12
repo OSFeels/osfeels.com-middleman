@@ -1,0 +1,15 @@
+.jumbotron
+  .hamburger-wrapper
+    .spinner-master
+      %input#spinner-form{ type: "checkbox" }
+      %label.spinner-spin#menu-toggle{ for: "spinner-form" }
+        .spinner.diagonal.part-1
+        .spinner.horizontal
+        .spinner.diagonal.part-2    
+  
+  .container
+    %h1
+      = link_to do
+        = tag :img, src: "images/logo_with_white_text_transparent_bg.png", alt: "Open Source & Feelings"
+    .row.newsletter
+      .col-md-8.col-md-offset-2= partial :mailing_list
