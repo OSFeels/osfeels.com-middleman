@@ -1,0 +1,38 @@
+.row.page--title.confetti.confetti--heart
+  .col-md-8.col-md-offset-2
+    %h1.blue Thank You to Our Sponsors!<
+    %p Open Source & Feelings wouldn't be possible without the support of our wonderful sponsors.
+
+.sponsors--level.callouts.confetti.confetti--lightning
+  .row
+    .col-md-12
+      %h2.purple Committer Sponsors
+
+  - data.sponsors.committers.sort_by { |sponsor| sponsor["name"] }.each do |sponsor|
+    .row.sponsors--section
+      .col-md-8.col-md-offset-2
+        %h3.committer{ id: generate_slug(sponsor["name"]) }
+          %a{ href: sponsor["url"], target:"_blank" }
+            %img.img-responsive.center-block{ src: "/images/sponsors/#{ sponsor["image"] }", alt: "#{ sponsor["name"] } logo" }
+        - if sponsor["blurb"]
+          %p= sponsor["blurb"]
+
+.sponsors--level.callouts.confetti.confetti--smile
+  .row
+    .col-md-12
+      %h2.purple Contributor Sponsors
+
+    - data.sponsors.contributors.sort_by { |sponsor| sponsor["name"] }.each_slice(2) do |sponsor_pair|
+      .row.sponsors--section
+        - sponsor_pair.each do |sponsor|
+          .col-md-6
+            %h3.contributor{ id: generate_slug(sponsor["name"]) }
+              %a{ href: sponsor["url"], target: "_blank" }
+                %img{ class: "#{ 'padded-logo' if sponsor["pad-logo"] } img-responsive center-block", src: "/images/sponsors/#{ sponsor["image"] }", alt: "#{ sponsor["name"] } logo" }
+            - if sponsor["blurb"]
+              %p= sponsor["blurb"]
+
+.row.callouts.sponsors--cta.confetti.confetti--heart
+  .col-md-12
+    %h2.blue Interested in Sponsoring OS Feels 2015?
+    .text-center= link_to "Download Prospectus", "/prospectus.pdf", class: "btn btn-danger"
