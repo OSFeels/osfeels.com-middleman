@@ -43,11 +43,42 @@ configure :development do
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def get_schedule(schedule, speakers)
+    # This is kludgy bs because I didn't want to actually implement an ORM.
+    schedule.map do |day|
+      events = day["events"].map do |event|
+        if event["speaker_name"]
+          speaker = speakers.select { |s| s["name"] == event["speaker_name"] }
+                            .first
+          if speaker
+            event.merge speaker
+          else
+            event
+          end
+        else
+          event
+        end
+      end
+      events        = events.reject { |e| e["name"].nil? || e["name"] == "" }
+      day["events"] = events.sort_by { |e| e["start_time"] }
+      day
+    end
+  end
+
+  def format_time(start)
+    parsed_time = Time.strptime(start, "%H%M")
+    parsed_time.strftime("%l:%M %p")
+  end
+
+  def generate_slug(name)
+    name.downcase.gsub(/\s+/, '-')
+  end
+
+  def sort_by_name(items)
+    items.sort_by { |item| item["name"] }
+  end
+end
 
 set :css_dir, 'stylesheets'
 
