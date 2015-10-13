@@ -23,9 +23,9 @@ contributors:
     url: http://nird.us
     image: nird-logo.png
     blurb: NIRD's team of experienced consultants work closely with our clients to develop applications that solve real-world problems every day. We provide end-to-end support, from project design and architecture through application development and testing to managed hosting and maintenance.
-  # - name: Sticker Mule
-  #   url: http://stickermule.com
-  #   image: TKTK
+  - name: Sticker Mule
+    url: http://stickermule.com
+    image: sticker-mule-logo.png
   - name: Pivotal
     url: http://pivotal.io/
     image: pivotal-logo.png
