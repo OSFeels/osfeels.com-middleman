@@ -1,6 +1,9 @@
 .row.footer
   .col-md-12
     %ul
-      %li= link_to "Code of Conduct", "/conduct", class: "confetti confetti--inline confetti--triangle"
-      %li= mail_to "hello@osfeels.com", "hello@osfeels.com", class: "confetti confetti--inline confetti--smile"
-      %li= link_to "@OSFeels", "https://twitter.com/OSFeels", class: "confetti confetti--inline confetti--heart"
+      %li
+        %a.confetti.confetti--inline.confetti--triangle{ href: "/conduct" } Code of Conduct
+      %li
+        %a.confetti.confetti--inline.confetti--smile{ href: "mailto:hello@osfeels.com" } hello@osfeels.com
+      %li
+        %a.confetti.confetti--inline.confetti--heart{ href: "https://twitter.com/OSFeels" } @OSFeels
