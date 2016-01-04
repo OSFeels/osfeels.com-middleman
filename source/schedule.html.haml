@@ -1,33 +1,36 @@
-.row.page--title.confetti.confetti--speech
-  .col-md-8.col-md-offset-2
-    %h1.pink Conference Schedule
-.row.event
-  - get_schedule(data.schedule, data.speakers).each do |day|
-    .col-md-6.event--day
-      .row
-        %h2= "#{ day["name"] }, #{ day["date"] }"
-      - day["events"].each do |event|
-        - if event["anchor-name"]
-          = link_to "", event["anchor-name"]
-        - else
-          .row.event--item
-            .col-md-12
-              .event--info
-                %h4.event--time= format_time(event["start_time"])
-                %p.text-center
-                  %em
-                    %small
-                      = event["length"]
-                      minutes
-              .event--details
-                - if event["speaker_name"]
-                  %a{ href: "/speakers##{ generate_slug(event["name"]) }" }
-                    %h5.text-left= event["name"]
-                    - if event["title"]
-                      = event["title"]
-                - elsif event["name"].match /(Break|Coffee)/
-                  %h5.blue.text-left= event["name"]
-                  = event["description"]
-                - else
-                  %h5.pink.text-left= event["name"]
-                  = event["description"]
+= partial :coming_soon, locals: { page: "Schedule" }
+
+-# For later reference:
+-# .row.page--title.confetti.confetti--speech
+-#   .col-md-8.col-md-offset-2
+-#     %h1.pink Conference Schedule
+-# .row.event
+-#   - get_schedule(data.schedule, data.speakers).each do |day|
+-#     .col-md-6.event--day
+-#       .row
+-#         %h2= "#{ day["name"] }, #{ day["date"] }"
+-#       - day["events"].each do |event|
+-#         - if event["anchor-name"]
+-#           = link_to "", event["anchor-name"]
+-#         - else
+-#           .row.event--item
+-#             .col-md-12
+-#               .event--info
+-#                 %h4.event--time= format_time(event["start_time"])
+-#                 %p.text-center
+-#                   %em
+-#                     %small
+-#                       = event["length"]
+-#                       minutes
+-#               .event--details
+-#                 - if event["speaker_name"]
+-#                   %a{ href: "/speakers##{ generate_slug(event["name"]) }" }
+-#                     %h5.text-left= event["name"]
+-#                     - if event["title"]
+-#                       = event["title"]
+-#                 - elsif event["name"].match /(Break|Coffee)/
+-#                   %h5.blue.text-left= event["name"]
+-#                   = event["description"]
+-#                 - else
+-#                   %h5.pink.text-left= event["name"]
+-#                   = event["description"]

@@ -4,6 +4,11 @@
 * https://github.com/OSFeels/bootstrap-sass
 * -----------------------------------------------------*/
 
+/* -- Links */
+p a {
+  font-weight: bold;
+}
+
 /* -- Confetti Styles */
 .confetti:before {
   content: "";
