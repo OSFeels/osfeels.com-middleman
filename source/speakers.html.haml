@@ -1,23 +1,26 @@
-.row.page--title.confetti.confetti--smile
-  .col-md-8.col-md-offset-2
-    %h1.pink Presenting at OS&F
+= partial :coming_soon, locals: { page: "2016 Call for Proposals" }
 
-.row
-  - data.speakers.each do |speaker|
-    .col-md-6.speakers--info
-      %a{ name: speaker["name"].downcase.gsub(/\s+/, '-') }
-      .speakers--info-box
-        %img.speakers--img.img-rounded{ src: "/images/presenters/#{ speaker["headshot"] }", alt: speaker["name"] }
-        %h2.speakers--name= speaker["name"]
-        %h3.speakers--title.text-left= speaker["title"]
-      .speakers--abstract
-        %p= speaker["abstract"]
-      - if speaker["bio"] != ""
-        .speakers--bio
-          %h4.text-left Speaker Bio
-          %p= speaker["bio"]
-      .speakers--contact
-        - if speaker["handle"]
-          %a.confetti.confetti--inline.confetti--sm.confetti--heart{ href: "http://twitter.com/#{ speaker["handle"] }", target: "_blank" }= "@#{ speaker["handle"] }"
-        - if speaker["website"]
-          %a.confetti.confetti--inline.confetti--sm.confetti--speech{ href: speaker["website"], target: "_blank" } Website
+-# For later reference:
+-# .row.page--title.confetti.confetti--smile
+-#   .col-md-8.col-md-offset-2
+-#     %h1.pink Presenting at OS&F
+-#
+-# .row
+-#   - data.speakers.each do |speaker|
+-#     .col-md-6.speakers--info
+-#       %a{ name: generate_slug(speaker["name"]) }
+-#       .speakers--info-box
+-#         %img.speakers--img.img-rounded{ src: "/images/presenters/#{ speaker["headshot"] }", alt: speaker["name"] }
+-#         %h2.speakers--name= speaker["name"]
+-#         %h3.speakers--title.text-left= speaker["title"]
+-#       .speakers--abstract
+-#         %p= speaker["abstract"]
+-#       - if speaker["bio"] != ""
+-#         .speakers--bio
+-#           %h4.text-left Speaker Bio
+-#           %p= speaker["bio"]
+-#       .speakers--contact
+-#         - if speaker["handle"]
+-#           %a.confetti.confetti--inline.confetti--sm.confetti--heart{ href: "http://twitter.com/#{ speaker["handle"] }", target: "_blank" }= "@#{ speaker["handle"] }"
+-#         - if speaker["website"]
+-#           %a.confetti.confetti--inline.confetti--sm.confetti--speech{ href: speaker["website"], target: "_blank" } Website
