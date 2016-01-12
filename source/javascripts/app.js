@@ -1,16 +1,15 @@
 // Fix hamburger display for back button
-var spinner = $("#spinner-form");
+var spinner = $('#spinner-form');
 
-if (spinner.is(":checked")) {
-  spinner.prop("checked", false);
+if (spinner.is(':checked')) {
+  spinner.prop('checked', false);
 }
 
 // Toggle mennu
-$("#menu-toggle").click(function(e) {
-  $("#wrapper").toggleClass("toggled");
-});
+$('#menu-toggle').click(function() {
+  $('#desktop-collapse').toggleClass('open');
 
-// enable the bio tooltips on page ready
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+  spinner.attr('aria_expanded', function (i, attr) {
+    return attr === 'true' ? 'false' : 'true'
+  });
+});
