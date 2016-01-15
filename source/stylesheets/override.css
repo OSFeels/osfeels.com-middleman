@@ -414,6 +414,17 @@ p a {
   display: block;
 }
 
+.individual-speaker img {
+  width: 40%;
+  float: left;
+  margin-right: 15px;
+}
+
+.individual-speaker .speakers--info-box {
+  min-height: 0;
+  margin-bottom: 0;
+}
+
 
 /* --- Schedule Page */
 .event--day h2 {

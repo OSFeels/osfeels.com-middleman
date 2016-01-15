@@ -1,0 +1,19 @@
+.row.callouts.confetti.confetti--heart
+  .col-md-8.col-md-offset-2.individual-speaker.speakers--info
+    %h2.purple= "#{speaker[:name]}"
+    .speakers--info-box
+      %img{ src: "/images/presenters/#{ speaker[:headshot]}", alt: speaker[:name] }
+      %h3.speakers--title.text-left= speaker[:title]
+    .speakers--abstract
+      %p= speaker[:abstract]
+    - if speaker[:bio] != ""
+      .speakers--bio
+        %h4.text-left Speaker Bio
+        %p= speaker[:bio]
+    .speakers--contact
+      - if speaker[:handle]
+        %a.confetti.confetti--inline.confetti--sm.confetti--heart{ href: "http://twitter.com/#{ speaker[:handle] }", target: "_blank" }= "@#{ speaker["handle"] }"
+      - if speaker[:website]
+        %a.confetti.confetti--inline.confetti--sm.confetti--speech{ href: speaker[:website], target: "_blank" } Website
+      - if speaker[:video_url]
+        %a.confetti.confetti--inline.confetti--sm.confetti--smile{ href: speaker[:video_url], target: "_blank" } Video of Talk
