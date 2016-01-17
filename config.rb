@@ -116,6 +116,7 @@ end
 # end
 
 activate :deploy do |deploy|
+  deploy.build_before = true
   deploy.method = :git
   deploy.remote = 'git@github.com:OSFeels/osfeels.github.io.git'
   deploy.branch = 'master'
