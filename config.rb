@@ -32,7 +32,7 @@ data.previous_speakers.each do |conference|
   conference[:speakers].each do |speaker|
     slug = speaker[:name].downcase.gsub(/\s+/, '-')
 
-    proxy "/previous-speakers/#{conference[:year]}/#{slug}",
+    proxy "/previous-speakers/#{conference[:year]}/#{slug}.html",
       "/individual_speaker.html",
       locals: { speaker: speaker },
       ignore: true
