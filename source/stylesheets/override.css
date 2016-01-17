@@ -68,7 +68,7 @@ p a {
 }
 
 .jumbotron img {
-  width: 60%;
+  width: 50%;
 }
 
 .jumbotron .tagline h2 {
@@ -120,93 +120,23 @@ p a {
 }
 
 
-/* -- Sliding Sidebar Navigation */
-#wrapper {
-  padding-left: 0;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+/* -- Navigation */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
 
-#wrapper.toggled {
-  padding-left: 250px;
-}
-
-#sidebar-wrapper {
-  z-index: 1000;
-  position: fixed;
-  left: 250px;
-  width: 0;
-  height: 100%;
-  margin-left: -250px;
-  overflow-y: auto;
-  background: #cd499a;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-#wrapper.toggled #sidebar-wrapper {
-  width: 250px;
-}
-
-#page-content-wrapper {
-  width: 100%;
-  position: absolute;
-}
-
-#wrapper.toggled #page-content-wrapper {
-  position: absolute;
-  margin-right: -250px;
-}
-
-.sidebar-nav {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.sidebar-nav li {
-  text-decoration: none;
-  list-style-type: none;
-  text-indent: 20px;
-  line-height: 40px;
-}
-
-.sidebar-nav li a {
-  display: block;
-  text-decoration: none;
-  color: white;
-}
-
-.sidebar-nav li a:hover {
-  color: #fff;
-  background: rgba(255,255,255,0.2);
-}
-
-.sidebar-nav > .sidebar-brand {
-  height: 65px;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 60px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-  color: white;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-  color: white;
-  background: none;
+#desktop-collapse {
+  text-align: center;
 }
 
 
 /* -- Hamburger Menu Animation */
+.navbar-header {
+  padding: 10px;
+}
+
 .spinner-master * {
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
@@ -214,11 +144,9 @@ p a {
 }
 
 .hamburger-wrapper {
-  position: fixed;
-  margin-left: 25px;
-  padding: 10px 10px 7px 7px;
-  background-color: #3b2870;
-  z-index: 99;
+  width: 35px;
+  margin: 0 auto;
+  display: none;
 }
 
 .spinner-master {
@@ -281,6 +209,34 @@ p a {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
   margin-top: -16px;
+}
+
+@media (max-width: 770px) {
+  .hamburger-wrapper {
+    display: block;
+  }
+
+  #desktop-collapse {
+    display: none;
+  }
+
+  #desktop-collapse.open {
+    display: block;
+  }
+}
+
+/* This prevents a super weird menu icon jump */
+@media (max-width: 770px) and (min-width: 768px) {
+  .navbar-header {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  #desktop-collapse.open {
+    background-color: #cd499a;
+    margin: 23px -45px 0 -45px;
+  }
 }
 
 
@@ -362,6 +318,19 @@ p a {
 
 .newsletter .dot {
   margin-top: 215px;
+}
+
+@media (max-width: 990px) {
+  .newsletter .dot,
+  .newsletter .triangle {
+    display: none;
+  }
+}
+
+@media (max-width: 460px) {
+  .newsletter input {
+    text-align: center;
+  }
 }
 
 
