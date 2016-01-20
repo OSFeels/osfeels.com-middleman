@@ -108,12 +108,12 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-# after_build do |builder|
-#   src = "./CNAME"
-#   dst = File.join(config[:build_dir],"CNAME")
-#   builder.source_paths << File.dirname(__FILE__)
-#   builder.copy_file(src,dst)
-# end
+after_build do |builder|
+  src = "./CNAME"
+  dst = File.join(config[:build_dir],"CNAME")
+  builder.source_paths << File.dirname(__FILE__)
+  builder.copy_file(src,dst)
+end
 
 activate :deploy do |deploy|
   deploy.build_before = true
