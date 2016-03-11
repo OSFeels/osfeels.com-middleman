@@ -211,7 +211,7 @@ p a {
   margin-top: -16px;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 767px) {
   .hamburger-wrapper {
     display: block;
   }
