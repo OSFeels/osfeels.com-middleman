@@ -3,6 +3,27 @@
     %h2.blue Interested in Sponsoring OS Feels 2016?
     .text-center= link_to "Visit the Prospectus!", "/prospectus", class: "btn btn-danger"
 
+.row.page--title.confetti.confetti--heart
+  .col-md-8.col-md-offset-2
+    %h1.blue Thank You to Our Sponsors!
+    %p Open Source & Feelings wouldn't be possible without the support of our wonderful sponsors.
+
+.sponsors--level.callouts.confetti.confetti--lightning
+  .row
+    .col-md-12
+      %h2.purple In-Kind Sponsors
+
+  - data.sponsors.inkind.sort_by { |sponsor| sponsor["name"] }.each do |sponsor|
+    .row.sponsors--section
+      .col-md-8.col-md-offset-2
+        %h3.committer{ id: generate_slug(sponsor["name"]) }
+          %a{ href: sponsor["url"], target:"_blank" }
+            %img.img-responsive.center-block{ src: "/images/sponsors/in-kind/#{ sponsor["image"] }", alt: "#{ sponsor["name"] } logo" }
+        - if sponsor["blurb"]
+          %p= sponsor["blurb"]
+
+
+
 -# For later reference:
 -# .row.page--title.confetti.confetti--heart
 -#   .col-md-8.col-md-offset-2
