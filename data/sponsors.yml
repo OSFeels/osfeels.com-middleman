@@ -6,7 +6,7 @@ inkind:
     blurb: NIRD's team of experienced consultants work closely with our clients to develop applications that solve real-world problems every day. We provide end-to-end support, from project design and architecture through application development and testing to managed hosting and maintenance.
   - name: O'Reilly
     url: http://www.oreilly.com/
-    image: O'Reilly.jpg
+    image: oreilly.jpg
 committers:
   - name: Github
     url: https://www.github.com
