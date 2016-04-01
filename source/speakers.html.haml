@@ -1,45 +1,31 @@
-.row.page--title.confetti.confetti--lightning
+.row.page--title.confetti.confetti--smile
   .col-md-8.col-md-offset-2
-    %h2.pink Speak at OS Feels 2016
-    %p.text-center
-      Do you have an idea for a great talk? We want to hear from you!
-      %br
-      Want to talk, but not sure what to talk about?
-      %a.blue{ href:"/talk-ideas" } Check out our list of talk ideas.
-    %p.text-center
-      All talk proposers will receive a 50% ticket discount.
-    %p.text-center
-      %strong
-        %a.purple{ href:"http://cfp.osfeels.com" } Submit a CFP by April 1st, 2016
+    %h1.pink Presenting at OS Feels
+
+.row
+  - data.speakers.each do |speaker|
+    .col-md-6.speakers--info
+      %a{ name: generate_slug(speaker["name"]) }
+      .speakers--info-box
+        %img.speakers--img.img-rounded{ src: "/images/presenters/#{ speaker["headshot"] }", alt: speaker["name"] }
+        %h2.speakers--name= speaker["name"]
+        %h3.speakers--title.text-left= speaker["title"]
+      .speakers--abstract
+        %p= speaker["abstract"]
+      - if speaker["bio"] != ""
+        .speakers--bio
+          %h4.text-left Speaker Bio
+          %p= speaker["bio"]
+      .speakers--contact
+        - if speaker["handle"]
+          %a.confetti.confetti--inline.confetti--sm.confetti--heart{ href: "http://twitter.com/#{ speaker["handle"] }", target: "_blank" }= "@#{ speaker["handle"] }"
+        - if speaker["website"]
+          %a.confetti.confetti--inline.confetti--sm.confetti--speech{ href: speaker["website"], target: "_blank" } Website
 
 .row.callouts.confetti.confetti--smile
   .col-md-8.col-md-offset-2
-    %h2.blue Previous OS Feels Speakers
+    %h2.blue Previous Speakers
     %p.text-center
       View our
       %a.purple{ href:"/previous-speakers" } previous speakers here.
 
--# For later reference:
--# .row.page--title.confetti.confetti--smile
--#   .col-md-8.col-md-offset-2
--#     %h1.pink Presenting at OS&F
--#
--# .row
--#   - data.speakers.each do |speaker|
--#     .col-md-6.speakers--info
--#       %a{ name: generate_slug(speaker["name"]) }
--#       .speakers--info-box
--#         %img.speakers--img.img-rounded{ src: "/images/presenters/#{ speaker["headshot"] }", alt: speaker["name"] }
--#         %h2.speakers--name= speaker["name"]
--#         %h3.speakers--title.text-left= speaker["title"]
--#       .speakers--abstract
--#         %p= speaker["abstract"]
--#       - if speaker["bio"] != ""
--#         .speakers--bio
--#           %h4.text-left Speaker Bio
--#           %p= speaker["bio"]
--#       .speakers--contact
--#         - if speaker["handle"]
--#           %a.confetti.confetti--inline.confetti--sm.confetti--heart{ href: "http://twitter.com/#{ speaker["handle"] }", target: "_blank" }= "@#{ speaker["handle"] }"
--#         - if speaker["website"]
--#           %a.confetti.confetti--inline.confetti--sm.confetti--speech{ href: speaker["website"], target: "_blank" } Website
