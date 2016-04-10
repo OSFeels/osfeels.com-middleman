@@ -5,8 +5,13 @@ inkind:
     image: nird-logo.png
     blurb: NIRD's team of experienced consultants work closely with our clients to develop applications that solve real-world problems every day. We provide end-to-end support, from project design and architecture through application development and testing to managed hosting and maintenance.
   - name: O'Reilly
-    url: http://www.oreilly.com/
+    url: http://www.oreilly.com
     image: oreilly.jpg
+    blurb: "O’Reilly Media is an internationally recognized, multi-faceted media company that has played a seminal role in the Internet revolution. Through its books, events, online training courses, webcasts, and evangelism, O’Reilly has educated a generation of technologists and entrepreneurs and shaped the dialogue about the future direction of the industry. The company has played an enormous role in the evolution and adoption of the World Wide Web, open source software, big data, and the Maker movement."
+  - name: No Starch Press  
+    url: http://nostarchpress.com
+    image: nostarch-logo.jpg
+    blurb: "No Starch Press publishes the finest in geek entertainment — distinctive books on computing, such as bestsellers Steal This Computer Book, Hacking: The Art of Exploitation, Practical Packet Analysis, and The Manga Guides. We focus on open source/Linux, security, hacking, programming, alternative operating systems, and science and math."
 committers:
   - name: Github
     url: https://www.github.com
