@@ -27,3 +27,9 @@
     Using my journey as an example, we'll walk through finding your personal venn diagram of identity and finding the empathy for others even when we have nothing in common."
   handle: "nattarnoff"
   website: "http://tarnoff.info"
+- name: "Tammarrian Rogers"
+  headshot: # TODO
+  title: "How To Contribute to a Project without Coding"
+  abstract:
+    "Getting aligned and connected to each other as well as the objective and ultimate goal of a project before the first line of code is written is critical for long-term success. Building a solid foundation based on the relationships between both the team members as well as the intended audience of the project allows much more than the code itself to manifest. The energy we put into our code is the energy our audience feels as they use it. Bringing this awareness and intention to any project is a common step missed. I will talk about ways to bring and maintain this step, this perspective, as a team member."
+  handle: "tammarrian"
