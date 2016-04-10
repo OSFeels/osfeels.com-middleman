@@ -6,7 +6,7 @@
       %h3.speakers--title.text-left= speaker[:title]
     .speakers--abstract
       %p= speaker[:abstract]
-    - if speaker[:bio] != ""
+    - if speaker[:bio] && speaker["bio"] != ""
       .speakers--bio
         %h4.text-left Speaker Bio
         %p= speaker[:bio]
