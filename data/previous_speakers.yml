@@ -73,16 +73,16 @@
     handle: "ericholscher"
     website: "http://ericholscher.com"
     video_url: "https://www.youtube.com/watch?v=CvhJG_HfKac"
-  - name: "Greg Tarnoff"
-    headshot: "greg-tarnoff.jpg"
+  - name: "Nat Tarnoff"
+    headshot: "nat-tarnoff.jpg"
     title: "Designing with Empathy"
     bio:
-      "Greg Tarnoff is a front end developer by day and accessibility hero all the time. For the last decade, he's focused on building products that work for all users."
+      "Nat Tarnoff is a front end developer by day and accessibility hero all the time. For the last decade, he's focused on building products that work for all users."
     abstract:
       "Too often we get caught up in our own biases, even the most compassionate of us. When we do, we lose sight of how to design and build platforms and experiences that work for all our users. We end up building for ourselves, the person who knows the system inside and out, the power user. And while people like us are important, they rarely make up the majority of users.
       </p><p>
       We need to build things that anyone can learn quickly, use efficiently, making the user feel confident and powerful. Through examples of atypical users, I’ll walk through things to consider when designing tools and applications that empower the greatest number of users to achieve more."
-    handle: "gregtarnoff"
+    handle: "nattarnoff"
     website: "http://tarnoff.info"
     video_url: "https://www.youtube.com/watch?v=KtcM4l5qd4A"
   - name: "Hsing-Hui Hsu"
