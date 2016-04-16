@@ -7,12 +7,14 @@
     .col-md-6.speakers--info
       %a{ name: generate_slug(speaker["name"]) }
       .speakers--info-box
-        %img.speakers--img.img-rounded{ src: "/images/presenters/#{ speaker["headshot"] }", alt: speaker["name"] }
-        %h2.speakers--name= speaker["name"]
+        - if speaker["headshot"] && speaker["headshot"] != ""
+          %img.speakers--img.img-rounded{ src: "/images/presenters/#{ speaker['headshot'] }", alt: speaker["name"] }
+        %a{ href: "/speakers/#{generate_slug(speaker['name'])}" }
+          %h2.speakers--name= speaker["name"]
         %h3.speakers--title.text-left= speaker["title"]
       .speakers--abstract
         %p= speaker["abstract"]
-      - if speaker["bio"] != ""
+      - if speaker["bio"] && speaker["bio"] != ""
         .speakers--bio
           %h4.text-left Speaker Bio
           %p= speaker["bio"]

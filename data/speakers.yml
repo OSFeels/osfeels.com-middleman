@@ -3,8 +3,6 @@
 - name: "Amy Wibowo"
   headshot: "amy-wibowo.jpg"
   title: "Now We're Cooking With STEAM: Humanities in Computer Science Education"
-  bio:
-    ""
   abstract:
     "There's been a recent push for incorporating computer science into high school classrooms, while some schools struggle to find funding for their art and music programs. This talk asks \"Why not both?\" and explores the ways that incorporating art can benefit a computer science curriculum, using Bubblesort Zines as a case study."
   handle: "sailorhg"
@@ -12,8 +10,6 @@
 - name: "Caroline Moore"
   headshot: "caroline-moore.jpg"
   title: "Burnout and the Cult of Busy"
-  bio:
-    ""
   abstract:
     "Our culture glorifies busyness, and perhaps the worst of it can be found in the tech industry. Workers at startups brag about how much they work, and how little they sleep. Engineers forgo lunch for more hours at their desk, social media is riddled with #hustlin and #riseandgrind, and everyone is available at all times. This kind of stress is bad for employees, and bad for business. This talk will cover the importance of self-care, avoiding burnout, and ways to set boundaries to protect your health."
   handle: "MooreClick"
@@ -21,8 +17,6 @@
 - name: "Nat Tarnoff"
   headshot: "nat-tarnoff.jpg"
   title: "Venn and the Art of Identity"
-  bio:
-    ""
   abstract:
     "We look at ourselves in context of others. We have a primal nature to classify, categorize, and organize things into groups that support us and help us grow, and those that harm us and make us wither. We do this with nature, food, religion, people, and anything else you can imagine. It is the root cause of strife in the world, but it also is the bedrock on which our misaligned society is built on.
     </p><p>
@@ -33,3 +27,9 @@
     Using my journey as an example, we'll walk through finding your personal venn diagram of identity and finding the empathy for others even when we have nothing in common."
   handle: "nattarnoff"
   website: "http://tarnoff.info"
+- name: "Tammarrian Rogers"
+  headshot: # TODO
+  title: "How To Contribute to a Project without Coding"
+  abstract:
+    "Getting aligned and connected to each other as well as the objective and ultimate goal of a project before the first line of code is written is critical for long-term success. Building a solid foundation based on the relationships between both the team members as well as the intended audience of the project allows much more than the code itself to manifest. The energy we put into our code is the energy our audience feels as they use it. Bringing this awareness and intention to any project is a common step missed. I will talk about ways to bring and maintain this step, this perspective, as a team member."
+  handle: "tammarrian"
