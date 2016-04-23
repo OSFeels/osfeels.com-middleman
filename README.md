@@ -25,5 +25,5 @@ improved! <3
 
 ## Credits
 - Our awesome branding and design were created by [Amy Wibowo](https://twitter.com/sailorhg)
-- Our site is built with [Bootstrap](http://getbootstrap.com)
+- Our site is built with [Middleman](https://middlemanapp.com)
 - Our hamburger menu animation was adapted from [Nathan Schmidt's Pure CSS Menu Transition](http://codepen.io/mrnathan8/details/mgFqJ)

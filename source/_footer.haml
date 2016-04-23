@@ -1,9 +1,10 @@
-.row.footer
-  .col-md-12
+%footer.container
+  = partial :mailing_list
+  .row.text-center
     %ul
       %li
-        %a.confetti.confetti--inline.confetti--triangle{ href: "/conduct" } Code of Conduct
+        %a.confetti.inline.triangle{ href: "/conduct" } Code of Conduct
       %li
-        %a.confetti.confetti--inline.confetti--smile{ href: "mailto:hello@osfeels.com" } hello@osfeels.com
+        %a.confetti.inline.smile{ href: "mailto:hello@osfeels.com" } hello@osfeels.com
       %li
-        %a.confetti.confetti--inline.confetti--heart{ href: "https://twitter.com/OSFeels" } @OSFeels
+        %a.confetti.inline.heart{ href: "https://twitter.com/OSFeels" } @OSFeels

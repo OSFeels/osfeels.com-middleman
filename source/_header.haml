@@ -1,0 +1,23 @@
+%header.text-center
+  %h1
+    = link_to "/" do
+      %span.a11y Open Source and Feelings
+      = tag :img, src: "/images/header-logo.png", alt: "Open Source & Feelings"
+
+  %nav
+    .hamburger-wrapper
+      .spinner-master
+        %span.a11y Toggle navigation
+        %input#spinner-form{ type: "checkbox", aria_expanded: "false" }
+        %label.spinner-spin#menu-toggle{ for: "spinner-form" }
+          .spinner.diagonal.part-1
+          .spinner.horizontal
+          .spinner.diagonal.part-2
+    #desktop-collapse
+      %ul
+        %li= link_to "About", "/about"
+        %li= link_to "Code of Conduct", "/conduct"
+        %li= link_to "Diversity Statement", "/diversity"
+        %li= link_to "Speakers", "/speakers"
+        %li= link_to "Sponsors", "/sponsors"
+        %li= link_to "Tickets", "https://ti.to/osfeels/open-source-feelings-2016", target: "_blank"

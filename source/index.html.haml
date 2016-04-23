@@ -1,17 +1,18 @@
-.row.callouts
-  .col-md-4.confetti.confetti--speech
-    %h2.pink Why<br>Open Source?
-    %p While successful from a technical or business perspective, on the human side of things, the promise of the Open Source Software community has gone unfulfilled. Open Source culture, left to grow untended, has been co-opted, diluted, and leaves too many individuals behind. It is a garden in need of tending, with too few gardeners available—we want to change that.
-  .col-md-4.confetti.confetti--smile
-    %h2.blue Why<br>Feelings?
-    %p Writing software can be emotionally difficult. Some of us talk about it with others, but many of us don’t, or aren’t encouraged to share. We need to be sharing our struggles, however, as we are the most natural support for each other. Being supportive and using this support takes practice and it takes intention.
-  .col-md-4.confetti.confetti--heart
-    %h2.purple Why Open Source & Feelings?
-    %p Open Source & Feelings is about the intersection between software and the humanities, and how we engage with the communities we're a part of. It is about deliberative crafting of its culture into what we want it to be, about developing strategies, skills, and solutions in order work as a community.
+.index
+  .row
+    .col-3
+      .item
+        %h2.teal.text-left Why Open Source?
+        %p While successful from a technical or business perspective, on the human side of things, the promise of the Open Source Software community has gone unfulfilled. Open Source culture, left to grow untended, has been co-opted, diluted, and leaves too many individuals behind. It is a garden in need of tending, with too few gardeners available—we want to change that.
+      .item
+        %h2.yellow.text-left Why Feelings?
+        %p Writing software can be emotionally difficult. Some of us talk about it with others, but many of us don’t, or aren’t encouraged to share. We need to be sharing our struggles, however, as we are the most natural support for each other. Being supportive and using this support takes practice and it takes intention.
+      .item
+        %h2.purple.text-left Why Open Source & Feelings?
+        %p Open Source & Feelings is about the intersection between software and the humanities, and how we engage with the communities we're a part of. It is about deliberative crafting of its culture into what we want it to be, about developing strategies, skills, and solutions in order work as a community.
 
-.row.callouts.confetti.confetti--lightning
-  .col-md-8.col-md-offset-2
-    %h2.pink Thanks to everyone who submitted a talk!
+  .row.callout
+    %h2.yellow Thanks to everyone who submitted a talk!
     %p.text-center
       A big thank you to those who took the time out to send along a talk for the conference. <3
       %br
@@ -19,15 +20,13 @@
       %br
       The proposals are now in review - check back here in a few weeks for information on selected talks!
 
-.row.callouts.confetti.confetti--heart
-  .col-md-8.col-md-offset-2
-    %h2.blue Where & When
-    %p.purple.lead.text-center
+  .row
+    %h2.teal Where & When
+    %p.purple.text-center
       Friday & Saturday
       %br
       %strong July 22nd & 23rd, 2016
-
-    %address.purple.lead.text-center
+    %address.purple.text-center
       %a{ href: "http://wp.seattlecentral.edu/broadway-performance-hall/" }
         %strong Broadway Performance Hall
       %br
@@ -35,12 +34,3 @@
       = link_to "(map)", "https://www.openstreetmap.org/way/137775893#map=14/47.6140/-122.3227&layers=H", class: "pink"
       %br
       Seattle, WA
-
--# See also, jumbotron in layout
-.confetti.confetti--lightning
-  .row.newsletter
-    .col-md-2
-      %img.triangle{ src: "/images/triangle_confetti.png" }
-    .col-md-8= partial :mailing_list
-    .col-md-2
-      %img.dot{ src: "/images/dot_confetti.png" }
