@@ -13,63 +13,17 @@ inkind:
     image: nostarch-logo.jpg
     blurb: "No Starch Press publishes the finest in geek entertainment — distinctive books on computing, such as bestsellers Steal This Computer Book, Hacking: The Art of Exploitation, Practical Packet Analysis, and The Manga Guides. We focus on open source/Linux, security, hacking, programming, alternative operating systems, and science and math."
 committers:
-  - name: Github
-    url: https://www.github.com
-    image: github-logo.png
-  - name: Honeybadger
-    url: https://www.honeybadger.io
-    image: honeybadger-logo.svg
-    blurb: Exception and uptime monitoring for your Ruby and Javascript apps.
-  - name: New Relic
-    url: http://newrelic.com
-    image: new-relic-logo.png
-    blurb: New Relic is a software analytics company that makes sense of billions of metrics about millions of applications in real time. New Relic's comprehensive SaaS-based solution provides one powerful interface for web and native mobile applications and consolidates the performance monitoring data for any chosen technology in an environment.
-  - name: npm
-    url: https://www.npmjs.com
-    image: npm-logo.svg
-    blurb: |
-      npm's mission is to take open source development to entirely new places, helping millions of developers around the world to share and perfect JavaScript code.</p>
-      <p>We run the free, private npm registry that hosts over 160,000 open-source packages of code for web, server-side, IoT, and mobile projects.</p>
-      <p>We build tools and services that help the professional coder securely leverage the power of modular software development, with both SaaS and enterprise software products.
 contributors:
-  - name: Sticker Mule
-    url: http://stickermule.com
-    image: sticker-mule-logo.png
-  - name: Pivotal
-    url: http://pivotal.io/
-    image: pivotal-logo.png
-    blurb: Transforming how the world builds software.
-  - name: Digital Ocean
-    url: https://www.digitalocean.com/
-    image: digital-ocean.png
-    blurb: "DigitalOcean is the world’s fastest growing cloud hosting provider built for developers. Our mission is simple: we’re passionate about making complex infrastructure simple and delighting our customers with a seamless experience that brings them joy. New users can easily deploy a blazing fast cloud server in 55 seconds with an intuitive control panel interface, which can be replicated on a larger scale with the company’s straightforward API."
   - name: Substantial
     url: http://substantial.com
     image: substantial-logo.png
     blurb: Substantial is a digital product innovation company that pairs design thinking with agile development to deliver applications for web, mobile and the internet of things with partners ranging from start-ups to Fortune 100s.
     pad-logo: true
+toannounce:
+  - name: Github
+    url: https://www.github.com
+    image: github-logo.png
   - name: Thomas Street
     url: http://thomasstreet.com
     image: thomas-street-logo.png
     blurb: Thomas Street is a pocket-sized design-build studio that helps companies create amazing software.
-  - name: Knight-Mozilla OpenNews
-    url: https://opennews.org/
-    image: knight-mozilla-opennews.jpg
-    blurb: "OpenNews is a joint project of Mozilla and the Knight Foundation. We support the growing community of news developers, designers, and data reporters helping journalism thrive on the open web."
-  - name: Instructure
-    url: http://www.instructure.com/
-    image: instructure.png
-    blurb: "Instructure makes software that makes smarter people. It all started with Canvas in 2011 and the goal to make teaching and learning a lot easier. And now, in 2015, we’ve launched our brand new baby, Bridge, which aims to change the way you (and, more importantly, your employees) think about employee engagement and corporate training. Today, more than 1,400 universities, school districts and institutions around the world use (and love) our products. We’re out to make the world smarter with better software because we hate mediocre technology as much as you do. Probably more. OK, yeah, we hate it more."
-  - name: Transloadit
-    url: http://transloadit.com/
-    image: transloadit.png
-    blurb: "The world's most versatile file uploading and processing service."
-  - name: Travis Foundation
-    url: http://foundation.travis-ci.org/
-    image: travis.png
-    blurb: "Travis Foundation is a non-profit initiative made by Travis CI aiming to give back and pay forward to the Open Source community. They launched Rails Girls Summer of Code and organize it for the third year in a row, consult to conferences on diversity matters and organize Open Source Grants. In general they are supporting projects that provide opportunities to newcomers, foster diversity and make the community an even greater place."
-  - name: Dev Bootcamp
-    url: http://devbootcamp.com/
-    image: devbootcamp.png
-    blurb: "Dev Bootcamp is the most established, immersive coding program that uses a “whole-self” approach to get students job-ready for careers in software development. Our program is 19 weeks and that includes 9 weeks remote, part-time, 9 weeks on-site immersion, and 1 week career prep."
-
