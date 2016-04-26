@@ -420,6 +420,12 @@ main {
   }
 
   .index {
+    .callout {
+      p, address {
+        font-size: 1.2rem;
+      }
+    }
+
     .item {
       h2 {
         font-size: 1.5rem;
@@ -617,14 +623,6 @@ main {
   }
 
   @media (max-width: $tablet) {
-    .index {
-      .row {
-        &:nth-of-type(1) {
-          margin-top: 0;
-        }
-      }
-    }
-
     .sponsors {
       .sponsor {
         width: 100%;
