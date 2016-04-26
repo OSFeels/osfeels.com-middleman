@@ -33,3 +33,10 @@
   abstract:
     "Getting aligned and connected to each other as well as the objective and ultimate goal of a project before the first line of code is written is critical for long-term success. Building a solid foundation based on the relationships between both the team members as well as the intended audience of the project allows much more than the code itself to manifest. The energy we put into our code is the energy our audience feels as they use it. Bringing this awareness and intention to any project is a common step missed. I will talk about ways to bring and maintain this step, this perspective, as a team member."
   handle: "tammarrian"
+- name: "Nicole Sanchez"
+  headshot: "nicole-sanchez.jpg"
+  title: "Inclusion, Diversity's Less-Understood Sibling"
+  abstract:
+    "In the necessary rush to examine the diversity data in our field, we've dropped an important facet of this work: Inclusion. As we increase our diversity across a myriad axes, what do we *do* with it? How do we support our communities to grow, thrive, and ensure that the benefits of diversity are actually realized? The talk will cover the *what* and *how* of building inclusive culture online and off."
+  handle: "nmsanchez"
+  website: "https://medium.com/@nmsanchez"
