@@ -1,33 +1,32 @@
-.row.page--title.confetti.confetti--smile
-  .col-md-8.col-md-offset-2
-    %h1.pink Presenting at OS Feels
+.speakers
+  .row.page-title
+    %h2 Presenting at Open Source & Feelings
 
-.row
-  - sort_by_name(data.speakers).each do |speaker|
-    .col-md-6.speakers--info
-      %a{ name: generate_slug(speaker["name"]) }
-      .speakers--info-box
-        - if speaker["headshot"] && speaker["headshot"] != ""
-          %img.speakers--img.img-rounded{ src: "/images/presenters/#{ speaker['headshot'] }", alt: speaker["name"] }
-        %a{ href: "/speakers/#{generate_slug(speaker['name'])}" }
-          %h2.speakers--name= speaker["name"]
-        %h3.speakers--title.text-left= speaker["title"]
-      .speakers--abstract
-        %p= speaker["abstract"]
-      - if speaker["bio"] && speaker["bio"] != ""
-        .speakers--bio
-          %h4.text-left Speaker Bio
-          %p= speaker["bio"]
-      .speakers--contact
-        - if speaker["handle"]
-          %a.confetti.confetti--inline.confetti--sm.confetti--heart{ href: "http://twitter.com/#{ speaker["handle"] }", target: "_blank" }= "@#{ speaker["handle"] }"
-        - if speaker["website"]
-          %a.confetti.confetti--inline.confetti--sm.confetti--speech{ href: speaker["website"], target: "_blank" } Website
+    - sort_by_name(data.speakers).each_slice(2) do |speaker_pair|
+      .row
+        .col-2
+          - speaker_pair.each do |speaker|
+            .speaker
+              - if speaker[:headshot] && speaker[:headshot] != ""
+                %img{ src: "/images/presenters/#{ speaker[:headshot]}", alt: speaker[:name] }
+              .details
+                %a.name{ href: "/speakers/#{generate_slug(speaker[:name])}", name: generate_slug(speaker[:name]) }
+                  %h2.text-left= speaker[:name]
+                %h3.title.text-left= speaker[:title]
+                .abstract
+                  %p= speaker[:abstract]
+                - if speaker[:bio] && speaker[:bio] != ""
+                  .bio
+                    %h4.text-left Speaker Bio
+                    %p= speaker[:bio]
+                .contact
+                  - if speaker[:handle]
+                    %a.confetti.inline.sm.heart{ href: "http://twitter.com/#{ speaker[:handle] }", target: "_blank" }= "@#{ speaker["handle"] }"
+                  - if speaker[:website]
+                    %a.confetti.inline.sm.speech{ href: speaker[:website], target: "_blank" } Website
 
-.row.callouts.confetti.confetti--smile
-  .col-md-8.col-md-offset-2
-    %h2.blue Previous Speakers
+  .row.callout
+    %h2.teal Previous Speakers
     %p.text-center
       View our
-      %a.purple{ href:"/previous-speakers" } previous speakers here.
-
+      %a{ href:"/previous-speakers" } previous speakers here.

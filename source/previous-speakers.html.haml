@@ -1,10 +1,9 @@
-.row.page--title.confetti.confetti--smile
-  .col-md-8.col-md-offset-2
-    %h1.pink Previous Speakers
-    %p Thanks to all of the amazing speakers who have presented at OS Feels! Click a speaker's name to view talk descriptions, speaker information, and video links.
+.row
+  %h1.pink Previous Speakers
+  %p Thanks to all of the amazing speakers who have presented at previous Open Source & Feelings! Click a speaker's name to view talk descriptions, speaker information, and video links.
 
 - sort_by_name(data.previous_speakers).each do |conference|
-  .row.confetti.confetti--heart
+  .row.confetti.heart
     %h2.blue 2015
     - conference[:speakers].each do |speaker|
       .col-md-8.col-md-offset-2
