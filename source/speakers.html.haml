@@ -3,7 +3,7 @@
     %h1.pink Presenting at OS Feels
 
 .row
-  - data.speakers.each do |speaker|
+  - sort_by_name(data.speakers).each do |speaker|
     .col-md-6.speakers--info
       %a{ name: generate_slug(speaker["name"]) }
       .speakers--info-box

@@ -3,7 +3,7 @@
     %h1.pink Previous Speakers
     %p Thanks to all of the amazing speakers who have presented at OS Feels! Click a speaker's name to view talk descriptions, speaker information, and video links.
 
-- data.previous_speakers.each do |conference|
+- sort_by_name(data.previous_speakers).each do |conference|
   .row.confetti.confetti--heart
     %h2.blue 2015
     - conference[:speakers].each do |speaker|
