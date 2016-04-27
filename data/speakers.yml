@@ -40,3 +40,12 @@
     "In the necessary rush to examine the diversity data in our field, we've dropped an important facet of this work: Inclusion. As we increase our diversity across a myriad axes, what do we *do* with it? How do we support our communities to grow, thrive, and ensure that the benefits of diversity are actually realized? The talk will cover the *what* and *how* of building inclusive culture online and off."
   handle: "nmsanchez"
   website: "https://medium.com/@nmsanchez"
+- name: "Emily Martinez"
+  headshot: "emily-martinez.jpg"
+  title: "Open Ambiguity: Love, Labor, Exhaustion and Resistance in an Openwashed World"
+  abstract:
+    "\"Owning pipelines, people, products or even intellectual property is no longer the key to success. Openness is,\" proclaims Internet pundit Jeff Jarvis. Opensource has gone mainstream, and everyone wants to be down with open. But what does \"open\" mean these days? And how does the ambiguity of openness, which allows for the extraction of free labor from individuals eager to contribute to open source projects (because love) by institutions eager to #openwash all of the things (because capitalism) impact us beyond the technologies they produce?
+    </p><p>
+    Under this apolitical free-for-all: How do the social and ethical values associated with our technologies get defined and expressed? When do the practical benefits of an efficient development model start to give way to shared exhaustion? Finally, how do we collaborate without giving away our power?"
+  handle: "Resonator11"
+  website: "http://somethingnothing.me"
