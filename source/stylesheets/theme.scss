@@ -628,9 +628,11 @@ main {
 
   @media (max-width: $tablet) {
     .sponsors {
-      .sponsor {
-        width: 100%;
-        margin-right: 0;
+      .col-2 {
+        .sponsor {
+          width: 100%;
+          margin-right: 0;
+        }
       }
     }
   }
@@ -686,10 +688,9 @@ footer {
       }
 
       .input-group {
-        font-size: 1.5rem;
-
         input {
           height: 3rem;
+          font-size: 1.3rem;
           background-color: $light-grey;
           border: 0;
           border-radius: 0;
@@ -698,6 +699,7 @@ footer {
 
         button {
           height: 3rem;
+          font-size: 1.3rem;
           padding: 0 1rem;
           margin: 0;
           border: 0;
