@@ -21,13 +21,16 @@
   .row.confetti.lightning
     %h2.purple Contributor Sponsors
 
-  - data.sponsors.contributors.sort_by { |sponsor| sponsor["name"] }.each do |sponsor|
-    .row.sponsor.contributor
-      %h3{ id: generate_slug(sponsor["name"]) }
-        %a{ href: sponsor["url"], target:"_blank" }
-          %img{ src: "/images/sponsors/#{ sponsor["image"] }", alt: "#{ sponsor["name"] } logo" }
-      - if sponsor["blurb"]
-        %p= sponsor["blurb"]
+  - data.sponsors.contributors.sort_by { |sponsor| sponsor["name"] }.each_slice(2) do |sponsor_pair|
+    .row
+      .col-2
+        -sponsor_pair.each do |sponsor|
+          .sponsor
+            %h3{ id: generate_slug(sponsor["name"]) }
+              %a{ href: sponsor["url"], target:"_blank" }
+                %img{ src: "/images/sponsors/#{ sponsor["image"] }", alt: "#{ sponsor["name"] } logo" }
+            - if sponsor["blurb"]
+              %p= sponsor["blurb"]
 
   .row.confetti.smile
     %h2.purple In-Kind Sponsors
