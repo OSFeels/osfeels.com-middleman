@@ -12,6 +12,10 @@ inkind:
     url: http://nostarchpress.com
     image: nostarch-logo.jpg
     blurb: "No Starch Press publishes the finest in geek entertainment — distinctive books on computing, such as bestsellers Steal This Computer Book, Hacking: The Art of Exploitation, Practical Packet Analysis, and The Manga Guides. We focus on open source/Linux, security, hacking, programming, alternative operating systems, and science and math."
+  - name: StickerMule
+    url:  http://www.stickermule.com
+    image: sticker-mule-logo.png
+    blurb: "StickerMule helps thousands of people, startups, bloggers, artists and companies order awesome stickers that are printed beautifully and ship fast."
 committers:
 contributors:
   - name: Substantial
