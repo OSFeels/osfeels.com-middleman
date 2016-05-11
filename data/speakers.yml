@@ -96,4 +96,12 @@
     Empathy doesn't have to cost you your soul. Wielded with skill, it can make stuff hurt a lot less, leaving you energy for changing the world!"
   handle: "onealexharms"
   website: "http://www.empathetictechnicalleader.com"
-  website: "http://www.maitria.com"
+- name: "Rebecca Turner"
+  headshot: "rebecca-turner.jpg"
+  title: "Unpopular Tech and Why It Was AMAZING"
+  abstract:
+    "Turn the narrative about \"crufty old legacy technology\" on its head! From CGI scripts, to PHP, from TCL to MySQL, explore why these technologies were exciting and what led to their success. Programming as a profession is forward looking and this sometimes leads us to forget how much influence they've had on what we do today. 
+    </p><p>
+    This talk will be half history lesson, half cheer leading now unpopular technologies."
+  handle: "ReBeccaOrg"
+  website: "https://re-becca.org"
