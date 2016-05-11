@@ -64,3 +64,19 @@
     "We use platforms like Facebook to find, connect, and build alliances with the people who can work together to co-create self-sustaining systems that promote our individual agendas. This talk will explore spaces that eclipse both the real and digital worlds. Marin will outline how she has used performance, poetry, and visual art as strategic communication tools to establish spaces for deeper engagement on topics from birth control and gender identity, to white privilege and racism. Her work with projects like Red Lineage, Miko Kuro's Midnight Tea, SPoCS (Seattle People of Color Salon) and #WhiteOrWrong allow the idea of community and imagination to grow and thrive through different levels of engagement, modes of connection, and methods of encounter."
   handle: "mikokuro"
   website: "http://www.natasha-marin.com"
+- name: "Emily Gorcenski"
+  headshot: "emily-gorcenski.jpg"
+  title: "The Ethics and Responsibilities of Open Source in the IoT"
+  abstract:
+    "The Internet of Things is upon us, whether we like it or not. From doorknobs to refrigerators to automobiles to medical devices, internet connectivity is becoming integrated not just into our consumer technology, but also our culture and everyday lives. Open source software (and hardware!) is already a part of IoT development, but to what extent do open source developers have a responsibility to the products and end users they affect? The extent of IoT adoption has the power to both empower and harm people in ways never before possible. 
+    </p><p>
+    In this talk, we will explore the ethical landscape of IoT development. We'll talk about IoT security and robustness. We'll discuss the leftpad incident and what impact that may have on an IoT future. We'll also explore how certain industries (e.g. the medical device industry) are regulated with respect to open source and software development in general, and ultimately what responsibilities and powers developers have to forge the IoT into a force of good."
+- name: "Christine Bryant-Ryback"
+  headshot: "christine-bryant-ryback.jpg"
+  title: "Standing Desks and Free Pizza: Body Image Negotiations in Tech Spaces"
+  abstract:
+    "\"Watching my carbs.\" \"Where'd you get the exercise ball chair?\" \"Getting a salad today.\" \"I don't know why they keep putting all these heavy beers on tap.\" \"You try that new lunch place?\" \"I don't know, still recovering from leg day.\"
+    </p><p>
+    Tech is notoriously bad at talking about the intersections of class, disability, race, gender - health, weight, and embodiment are equally nuanced subjects all on their own. What happens when a self-consciously desk-oriented culture tries to over-correct? What happens when people tire of beer and pizza that no longer feels optional, and \"health\" is the cleanest way out? What happens when your coworkers and your mobile phone both follow your gym progress? What happens to those who are already hyper-aware that their bodies are battlegrounds? How do we find some socially-acceptable balance in these interwoven networks of expectation and self-care?
+    </p><p>
+    This talk will explore the complex landscape of body image negotiation in tech-specific cultural spaces, and hopefully offer a couple of tools to enable a baseline level of body-positive communication with tech coworkers."
