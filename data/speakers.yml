@@ -129,7 +129,13 @@
   handle: "shawnr"
   website: "http://shawnrider.com"
 - name: "Dusty Burwell"
+  headshot: ""
   title: "The Automation Revolution"
+  abstract:
+    "Jobs normally performed by well paid workers are quickly being taken over by less skilled workers supported by machines. This is driving down wages and leaving many workers jobless. Unrest has stirred between the upper and displaced middle class and protests are igniting across the country. This all sounds so very familiar. Oddly, it all happened in the early 19th century. Perhaps history is repeating.
+    </p><p>
+    As technologists we tend to look at the lighter side of the technology we create. We solve problems and create software to make people’s lives easier and reduce the amount of effort needed to complete mundane tasks. We like to think that these optimizations have a net positive effect in the world around us, improving quality of life and freeing people from drudgery. But, what about the darker side of technology. Can we take a moment to talk about the potential problems we’re creating? What road have the beat of time and Moore’s law fated us to travel?"
+  handle: "dustyburwell"
 - name: "Jennifer Tu"
   headshot: ""
   title: "Web Forms: When Someone's Gender is Your Business"
