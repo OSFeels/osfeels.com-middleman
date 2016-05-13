@@ -132,7 +132,14 @@
     Clearly a male-female radio button isn't going to cut it. But what would? and what do doctors actually need to know about a patient's sex or gender? Spoiler: the answer is not what you might assume it would be."
   handle: "jtu"
 - name: "Lauren Scott"
+  headshot: ""
   title: "How To Be Everything: A Look At The Way We Give Advice"
+  abstract:
+    "From our first lines of code onward, we are bombarded with well-meaning advice on How To Tech Right. Often, this includes \"owning your ignorance\" and \"squashing your ego\" in order to embrace a learning mindset. But we also frequently tell people, particularly women and minorities in tech, to \"own their expertise\" and not be afraid to confidently stake their claim as a programmer. The fight between impostor & entitlement syndromes has left us with a confusing assortment of advice we dole out to beginners and vets alike: be humble but be confident, be a novice but an expert.
+    </p><p>
+    So what can we do with this incongruity? Is there a way to find balance? Or do we need to rethink our guidance model altogether? In this talk, I’ll examine the impact our advice has on disadvantaged groups in tech and explore ways in which we can move the onus of change from the impacted individuals onto the community at large."
+  handle: "devdame"
+  website: "http://devdame.com"
 - name: "Lyn Muldrow"
   headshot: ""
   title: "BlackGirlMagic: Being the only brown engineer"
