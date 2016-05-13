@@ -134,7 +134,16 @@
 - name: "Lauren Scott"
   title: "How To Be Everything: A Look At The Way We Give Advice"
 - name: "Lyn Muldrow"
+  headshot: ""
   title: "BlackGirlMagic: Being the only brown engineer"
+  abstract:
+    "In an industry best suited for white and asian men where diversity is no more than a buzzword and dataset for most companies, it's easy to get lost in the shuffle, fetishized, and pushed to the side as a black woman in tech.
+    </p><p>
+    In both open source communities and in the workforce, black women are often excluded, misunderstood, or subject to conscious and unconscious bias that unduly effects their work effort and performance. Our feelings are to be kept at bay, lest we'd be deemed argumentative, uncooperative, or bitchy.
+    </p><p>
+    Dealing with being an 'only' has social, emotional, and other implications, and my talk will seek to illuminate a few of these feelings, while giving actionable advice on how to have empathy, understanding, and social graces when encountering and being an 'only.'"
+  handle: "lynmuldrow"
+  website: "http://lynmuldrow.com"
 - name: "Christie Koehler"
   headshot: "christie-koehler.jpg"
   title: "When the Worst Happens: Moving Forward After the Unexpected Death of a Core Organizer"
