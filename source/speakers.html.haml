@@ -2,7 +2,7 @@
   .row.page-title
     %h2 Presenting at Open Source & Feelings
 
-    - sort_by_name(data.speakers).each_slice(2) do |speaker_pair|
+    - sort_by_length(data.speakers).each_slice(2) do |speaker_pair|
       .row
         .col-2
           - speaker_pair.each do |speaker|
