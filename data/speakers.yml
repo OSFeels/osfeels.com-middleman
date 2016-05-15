@@ -135,7 +135,7 @@
     As technologists we tend to look at the lighter side of the technology we create. We solve problems and create software to make people’s lives easier and reduce the amount of effort needed to complete mundane tasks. We like to think that these optimizations have a net positive effect in the world around us, improving quality of life and freeing people from drudgery. But, what about the darker side of technology. Can we take a moment to talk about the potential problems we’re creating? What road have the beat of time and Moore’s law fated us to travel?"
   handle: "dustyburwell"
 - name: "Jennifer Tu"
-  headshot: ""
+  headshot: "jennifer-tu.jpg"
   title: "Web Forms: When Someone's Gender is Your Business"
   abstract:
     "We all know the recommendations around collecting a user's gender or sex, especially as a single binary field: don't. There are so many brilliant flowcharts and diagrams and essays publically available that all remind us that it's none of our business.
