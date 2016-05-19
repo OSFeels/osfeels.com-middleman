@@ -5,7 +5,7 @@ website](http://www.osfeels.com).
 ## Important Resources
 - [Code of Conduct](http://www.osfeels.com/conduct)
 - [Diversity Statement](http://www.osfeels.com/diversity)
-- Contact us at hello@osfeel.com or [@osfeels](https://twitter.com/osfeels)
+- Contact us at hello@osfeels.com or [@osfeels](https://twitter.com/osfeels)
 
 ## Running Locally
 This project uses Middleman. To get it set up locally:
@@ -17,7 +17,7 @@ $ middleman
 ```
 
 ## Deploying
-To deploy, run `middleman deploy` from master.
+To deploy, run `middleman deploy` using master.
 
 ## Contributing
 Please open a pull request or an issue if you see something that could be
