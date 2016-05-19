@@ -96,6 +96,10 @@ helpers do
   def sort_by_name(items)
     items.sort_by { |item| item["name"] }
   end
+
+  def sort_by_length(items)
+    items.sort_by { |item| (item["abstract"] || []).length }
+  end
 end
 
 set :css_dir, 'stylesheets'

@@ -64,3 +64,129 @@
     "We use platforms like Facebook to find, connect, and build alliances with the people who can work together to co-create self-sustaining systems that promote our individual agendas. This talk will explore spaces that eclipse both the real and digital worlds. Marin will outline how she has used performance, poetry, and visual art as strategic communication tools to establish spaces for deeper engagement on topics from birth control and gender identity, to white privilege and racism. Her work with projects like Red Lineage, Miko Kuro's Midnight Tea, SPoCS (Seattle People of Color Salon) and #WhiteOrWrong allow the idea of community and imagination to grow and thrive through different levels of engagement, modes of connection, and methods of encounter."
   handle: "mikokuro"
   website: "http://www.natasha-marin.com"
+- name: "Emily Gorcenski"
+  headshot: "emily-gorcenski.jpg"
+  title: "The Ethics and Responsibilities of Open Source in the IoT"
+  abstract:
+    "The Internet of Things is upon us, whether we like it or not. From doorknobs to refrigerators to automobiles to medical devices, internet connectivity is becoming integrated not just into our consumer technology, but also our culture and everyday lives. Open source software (and hardware!) is already a part of IoT development, but to what extent do open source developers have a responsibility to the products and end users they affect? The extent of IoT adoption has the power to both empower and harm people in ways never before possible. 
+    </p><p>
+    In this talk, we will explore the ethical landscape of IoT development. We'll talk about IoT security and robustness. We'll discuss the leftpad incident and what impact that may have on an IoT future. We'll also explore how certain industries (e.g. the medical device industry) are regulated with respect to open source and software development in general, and ultimately what responsibilities and powers developers have to forge the IoT into a force of good."
+  handle: "EmilyGorcenski"
+  website: "http://emilygorcenski.com"
+- name: "Christine Bryant-Ryback"
+  headshot: "christine-bryant-ryback.jpg"
+  title: "Standing Desks and Free Pizza: Body Image Negotiations in Tech Spaces"
+  abstract:
+    "Tech is notoriously bad at talking about intersections of class, disability, race, gender–health, weight, and embodiment are equally nuanced subjects all on their own. What happens when a self-consciously desk-oriented culture tries to over-correct? What happens when people tire of beer and pizza that no longer feels optional, and \"clean eating\" is the cleanest way out? What happens to those who are already hyper-aware that their bodies are battlegrounds? How do we find some socially-acceptable balance in these interwoven networks of expectation and self-care?
+    </p><p>
+    This talk will explore the complex landscape of body image negotiation in tech-specific cultural spaces, and hopefully offer a couple of tools to enable a baseline level of body-positive communication with tech co-workers."
+  handle: "hootbot"
+- name: "Alex Harms"
+  headshot: "alex-harms.jpg"
+  title: "Community is a verb"
+  abstract: 
+    "Shit blew up again. The maintainers of this repo were clueless & unhelpful. That conference refuses to use a code of conduct. The other conference has one but it's not enough. Twitter erupts, folks are angry and hurt, and people you thought were friends turn out to apparently be idiots!
+    </p><p>
+    One way to get through it would be to just get rid of all the idiots. But that's really hard, and besides, they might be trying to get rid of you.
+    </p><p>
+    How do you stay compassionate and get past the divide? How do you do that and stay true to your values? Is dialogue possible?
+    </p><p>
+    Empathy doesn't have to cost you your soul. Wielded with skill, it can make stuff hurt a lot less, leaving you energy for changing the world!"
+  handle: "onealexharms"
+  website: "http://www.empathetictechnicalleader.com"
+- name: "Rebecca Turner"
+  headshot: "rebecca-turner.jpg"
+  title: "Unpopular Tech and Why It Was AMAZING"
+  abstract:
+    "Turn the narrative about \"crufty old legacy technology\" on its head! From CGI scripts, to PHP, from TCL to MySQL, explore why these technologies were exciting and what led to their success. Programming as a profession is forward looking and this sometimes leads us to forget how much influence they've had on what we do today. 
+    </p><p>
+    This talk will be half history lesson, half cheer leading now unpopular technologies."
+  handle: "ReBeccaOrg"
+  website: "https://re-becca.org"
+- name: "Forrest Lehwalder Norvell"
+  headshot: "forrest-norvell.jpg"
+  title: "empathy at scale"
+  abstract:
+    "With the other two members of my team, I manage the open-source CLI interface for a popular package manager for web developers. The three of us decide upon the project's direction, define the scope of the product, handle support for the many thousands of npm's users, collaborate with the other stakeholders in the JavaScript community, and even occasionally write code. 3 paid developers is a significant commitment for a for-profit company to make to an open source project, but it's a small group to be supporting a project of this popularity. That popularity continues to grow geometrically, and hasn't shown much sign of slowing down.
+    </p><p>
+    At last October's Open Source & Feelings, Jacob Kaplan-Moss gave an excellent talk on his experiences as a Django maintainer, and what ultimately led him to quit working on the project. Shortly after that, I gave a talk at another conference, entitled <a href=\"https://gist.github.com/othiym23/afbebb331baf0193379e\">Empathy & Burnout</a> that was, in some ways, in conversation with Jacob's talk. It discussed my own experiences as someone who hadn't yet gotten to the point of no return, and what I was doing to try to make the load of doing OSS work sustainable. Since then, I've continued to do the work described in that talk, and to struggle to balance the needs of the community for a popular open-source project with the need to take care of myself and the members of my team.
+    </p><p>
+    Something that was less clear to me then than now is that there is a largely invisible complement of less-visible emotional labor involved in this kind of work that can't just be waved away by being encouraged to maintain a healthy work-life balance. Even in a community, like npm's, that's blessed with a relative absence of abusive behavior and harassment, there's still a lot of mundane negativity and frustration that bleeds through from communication with the people depending on your project to do their jobs. Finding the right balance between project work and working to support a welcoming and inclusive community is tricky to manage. It takes effort and a lot of (sometimes ethically hazardous) judgment calls to determine what, exactly, \"life / work balance\" means when you're a small team supporting an ever-growing user community.
+    </p><p>
+    I don't propose to provide clear-cut answers to these problems, because I haven't figured them out. What I do have is strategies, and some thoughts about what it's going to take to make it so that those of us can do this work can imagine still doing it more than a few months down the road. I also have what I believe is some useful advice about making your peace, as an open source developer, or an open source project manager, with dropping all kinds of things on the floor, and how to do that without harming the project, or its users. So, real talk, but not without hope."
+  handle: "othiym23"
+- name: "Shawn Rider"
+  headshot: "shawn-rider.jpg"
+  title: "Work is Not a Dare: Tips for Building Inclusive Teams"
+  abstract:
+    "All too often, working on a team becomes a never ending sequence of dares. This applies to all teams, but for development teams the problem has some recognizable patterns: Changes are submitted, approved and merged with discussions that take place over the heads of most of the team members -- or without explanation at all; projects lack the supportive tooling that makes work efficient and pleasurable for all of the roles on a team; developers are told to \"own\" a problem and sent off alone as if on some mythical hero quest. This is a set of dares. We dare you to speak up. We dare you to ask for explanation of code you do not understand. We dare you to figure out how to create your own tools. We dare you to find an end-to-end solution in isolation that the rest of the group will deem worthy.
+    </p><p>
+    The dares may not be explicit, but the implied risk involved in speaking up, asking for help, or seeking collaboration is often real: Our reactions to the behaviors listed above are used as indicators of how smart and good we are. These behaviors, and many others that follow along the same lines, create significant barriers to building and operating inclusive teams that can successfully leverage members from varying backgrounds, with varying levels of training, and with varying subject matter expertise.
+    </p><p>
+    This presentation will offer ideas for how teams can become more inclusive in order to create a positive, productive environment that allows all members to maximize their efficiency and pleasure. There are quite a few steps an organization can take to improve team structures and processes, but to create an inclusive environment the key concept is support. Putting mutual support, whether requested or not, at the base of every decision we make is the best way to create an inclusive team that builds the commitment and investment of its members while building a product that represents them."
+  handle: "shawnr"
+  website: "http://shawnrider.com"
+- name: "Dusty Burwell"
+  headshot: ""
+  title: "The Automation Revolution"
+  abstract:
+    "Jobs normally performed by well paid workers are quickly being taken over by less skilled workers supported by machines. This is driving down wages and leaving many workers jobless. Unrest has stirred between the upper and displaced middle class and protests are igniting across the country. This all sounds so very familiar. Oddly, it all happened in the early 19th century. Perhaps history is repeating.
+    </p><p>
+    As technologists we tend to look at the lighter side of the technology we create. We solve problems and create software to make people’s lives easier and reduce the amount of effort needed to complete mundane tasks. We like to think that these optimizations have a net positive effect in the world around us, improving quality of life and freeing people from drudgery. But, what about the darker side of technology. Can we take a moment to talk about the potential problems we’re creating? What road have the beat of time and Moore’s law fated us to travel?"
+  handle: "dustyburwell"
+- name: "Jennifer Tu"
+  headshot: "jennifer-tu.jpg"
+  title: "Web Forms: When Someone's Gender is Your Business"
+  abstract:
+    "We all know the recommendations around collecting a user's gender or sex, especially as a single binary field: don't. There are so many brilliant flowcharts and diagrams and essays publically available that all remind us that it's none of our business.
+    </p><p>
+    But... what happens when knowing someone's sex IS your business? for example, for a doctor's office?
+    </p><p>
+    Clearly a male-female radio button isn't going to cut it. But what would? and what do doctors actually need to know about a patient's sex or gender? Spoiler: the answer is not what you might assume it would be."
+  handle: "jtu"
+# - name: "Lauren Scott"
+#   headshot: ""
+#   title: "How To Be Everything: A Look At The Way We Give Advice"
+#   abstract:
+#     "From our first lines of code onward, we are bombarded with well-meaning advice on How To Tech Right. Often, this includes \"owning your ignorance\" and \"squashing your ego\" in order to embrace a learning mindset. But we also frequently tell people, particularly women and minorities in tech, to \"own their expertise\" and not be afraid to confidently stake their claim as a programmer. The fight between impostor & entitlement syndromes has left us with a confusing assortment of advice we dole out to beginners and vets alike: be humble but be confident, be a novice but an expert.
+#     </p><p>
+#     So what can we do with this incongruity? Is there a way to find balance? Or do we need to rethink our guidance model altogether? In this talk, I’ll examine the impact our advice has on disadvantaged groups in tech and explore ways in which we can move the onus of change from the impacted individuals onto the community at large."
+#   handle: "devdame"
+#   website: "http://devdame.com"
+- name: "Lyn Muldrow"
+  headshot: "lyn-muldrow.jpg"
+  title: "BlackGirlMagic: Being the only brown engineer"
+  abstract:
+    "In an industry best suited for white and asian men where diversity is no more than a buzzword and dataset for most companies, it's easy to get lost in the shuffle, fetishized, and pushed to the side as a black woman in tech.
+    </p><p>
+    In both open source communities and in the workforce, black women are often excluded, misunderstood, or subject to conscious and unconscious bias that unduly effects their work effort and performance. Our feelings are to be kept at bay, lest we'd be deemed argumentative, uncooperative, or bitchy.
+    </p><p>
+    Dealing with being an 'only' has social, emotional, and other implications, and my talk will seek to illuminate a few of these feelings, while giving actionable advice on how to have empathy, understanding, and social graces when encountering and being an 'only.'"
+  handle: "lynmuldrow"
+  website: "http://lynmuldrow.com"
+- name: "Christie Koehler"
+  headshot: "christie-koehler.jpg"
+  title: "When the Worst Happens: Moving Forward After the Unexpected Death of a Core Organizer"
+  abstract:
+    "CW: Suicide; no specific details.
+    </p><p>
+    In this talk, I will share my experience of loss and how our community got through it and still managed to host a conference. I’ll explore the fragility of building personal relationships solely around open source and community work. Finally, I’ll illuminate the practical issues each of us need to address to ensure our work and our community’s work lives on in the way that we wish after we are gone.
+    </p><p>
+    Just days before we were scheduled to open our CFP, a dear friend and one of our key organizers committed suicide. We were already late in opening our CFP and the conference was going to happen in 10 short weeks whether we felt up to it or not. We had to move forward while we navigated our grief.
+    </p><p>
+    We pulled together in ways that still make my heart soar. We managed to keep our conference more or less on schedule. We helped to help settle the affairs of our friend, with many of us sharing the burden. We divided the load based on what made sense for each of us to carry.
+    </p><p>
+    One of my jobs was to co-lead the planning of our friend’s celebration of life. We did this collectively using the same processes as our other events. It was sometime during this planning that I realized I was functioning as a kind of secular pastor. I still don’t feel particularly skilled or equipped for this extra-dimensional community organizer role. But it did, and still does, give me a deep sense of purpose.
+    </p><p>
+    Another thing we did, and rather quickly, was to transfer the communal assets our friend controlled before they became inaccessible. It might seem strange to focus on pedestrian matters at such a time. But it’s actually the main thing you have to do when somebody dies. What do you do with their things? What are you legally required to do with their things? What do you do with the communal assets that they held? What if you’re not as lucky as we were and don’t access to these communal assets? How do you secure them?
+    </p><p>
+    After an author he liked died without leaving a proper will, Neil Gaiman worked with an attorney to create a general will for authors of creative works. He did this to help them ensure their works would live on in the way they wanted after their deaths. I believe we need a similar awareness raising and resource in tech.
+    </p><p>
+    Lastly, I’ll speak to how I’m thinking about all of this nearly three years later. I still miss our friend, deeply. What I regret most is not spending more \"just hanging\" out time with him. In fact, I’ve noticed that this is not specific to my friend who has passed. For many reasons, I’ve come to rely upon building my friendships around work, volunteer or otherwise. It’s part of why open source has been so attractive to me. But more and more I am feeling the fragility of this. Not only does it place work-related stress on those friendships, but it reinforces the message that we are only valuable inasmuch as our ability to contribute.
+    </p><p>
+    I want to be loved and to be welcome regardless of how much I’m able to contribute at a given time. And I think I’m not the only one."
+  handle: "christi3k"
+  website: "https://christiekoehler.com"
+# - name: "Kronda Adair"
+#   title: "Expanding your empathy"
+#   abstract: ""
