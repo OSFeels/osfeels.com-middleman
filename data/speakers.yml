@@ -127,7 +127,7 @@
   handle: "shawnr"
   website: "http://shawnrider.com"
 - name: "Dusty Burwell"
-  headshot: ""
+  headshot: "dusty-burwell.jpg"
   title: "The Automation Revolution"
   abstract:
     "Jobs normally performed by well paid workers are quickly being taken over by less skilled workers supported by machines. This is driving down wages and leaving many workers jobless. Unrest has stirred between the upper and displaced middle class and protests are igniting across the country. This all sounds so very familiar. Oddly, it all happened in the early 19th century. Perhaps history is repeating.
@@ -187,6 +187,24 @@
     I want to be loved and to be welcome regardless of how much I’m able to contribute at a given time. And I think I’m not the only one."
   handle: "christi3k"
   website: "https://christiekoehler.com"
-# - name: "Kronda Adair"
-#   title: "Expanding your empathy"
-#   abstract: ""
+- name: "Kronda Adair"
+  headshot: "kronda-adair.jpg"
+  title: "Expanding your empathy"
+  abstract: 
+    "I believe empathy is the core competency that is missing from much of the efforts to push the tech community in a direction towards more diversity of all kinds. Companies, communities and conferences cannot expect everything to magically change until they’re willing to go deep and examine the systemic patterns and structures that keep underrepresented communities from feeling safe and welcome in the tech space.
+    </p><p>  
+    When confronting racism results in a critique of the manner in which the offender was confronted by the people calling themselves supporters, it makes it that much harder to address the real issues.
+    </p><p>
+    If a man’s first response to a woman complaining about a sexist incident or a sexual assault is to defend all the men who ’aren’t like that,’ that shows a lack of empathy. It keeps the focus on how men are being perceived, not empathizing with a woman who has been hurt.
+    </p><p>
+    This talk is for people in positions of all sorts of privilege who consider themselves allies to underrepresented minorities and want to learn how to be more effective allies.
+    </p><p>
+    We’ll talk about what it’s like to live as a minority—why someone might have what seems to you like an ‘overreaction’ to something that seems small.
+    </p><p>
+    How to stop, drop, and empathize before you go on the personal defensive for anger that’s directed at a group that you happen to be a part of, even if you didn’t specifically do anything wrong.
+    </p><p>
+    We’ll talk about tone policing, derailing, man-splaining and other hurtful behaviors that are sometimes practiced by well meaning people who consider themselves allies.
+    </p><p>
+    Leave your ego at the door and come with an open heart."
+  handle: "kronda"
+  website: "http://karveldigital.com"
