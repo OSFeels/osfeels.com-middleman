@@ -44,11 +44,11 @@
     length: 20
   - name: "Snack break!"
     description: "Omnomnoms, friends, and chats."
-    start_time: "1530"
+    start_time: "1520"
     length: 30
   - speaker_name: "Lauren Scott"
-    start_time: "1600"
-    length: 20
+    start_time: "1550"
+    length: 30
   - speaker_name: "Kronda Adair"
     start_time: "1620"
     length: 30
