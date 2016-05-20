@@ -23,6 +23,10 @@ contributors:
     image: substantial-logo.png
     blurb: "Substantial is a digital product innovation company that pairs design thinking with agile development to deliver applications for web, mobile and the internet of things with partners ranging from start-ups to Fortune 100s."
     pad-logo: true
+  - name: Thomas Street
+    url: http://thomasstreet.com
+    image: thomas-street-logo.png
+    blurb: Thomas Street is a pocket-sized design-build studio that helps companies create amazing software.  
   - name: ActBlue
     url: http://www.actblue.com
     image: act-blue-logo.png
@@ -38,12 +42,9 @@ toannounce:
     url: https://www.github.com
     image: github-logo.png
     blurb: "GitHub is how people build software. With a community of more than 14 million people, developers can discover, use, and contribute to over 35 million projects using a powerful collaborative development workflow."
-  - name: Thomas Street
-    url: http://thomasstreet.com
-    image: thomas-street-logo.png
-    blurb: Thomas Street is a pocket-sized design-build studio that helps companies create amazing software.
-  - name: Google
+  - name: Chrome
     url: http://www.google.com
-    image: google-logo.png  
+    image: chrome-logo.png  
+    blurb: ""
 
   
