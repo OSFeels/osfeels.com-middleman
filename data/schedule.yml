@@ -20,7 +20,7 @@
     description: "Now with 100% more happiness and mingling!"  
     start_time: "1030"
     length: 20
-  - speaker_name: "Emily Martinez"
+  - speaker_name: "Jennifer Tu"
     start_time: "1050"
     length: 20
   - speaker_name: "Christine Bryant-Ryback"
@@ -46,10 +46,10 @@
     description: "Omnomnoms, friends, and chats."
     start_time: "1530"
     length: 30
-  - speaker_name: "Forrest Lehwalder Norvell"
+  - speaker_name: "Lauren Scott"
     start_time: "1600"
     length: 20
-  - speaker_name: "Alex Harms"
+  - speaker_name: "Kronda Adair"
     start_time: "1620"
     length: 30
   - name: "Outro"
@@ -72,17 +72,17 @@
     description: "Welcome to Day 2 of Open Source & Feelings."
     start_time: "0900"
     length: 10  
-  - speaker_name: "Nat Tarnoff"
+  - speaker_name: "Forrest Lehwalder Norvell"
     start_time: "0910"
     length: 30
-  - speaker_name: "Jennifer Tu"
+  - speaker_name: "Emily Martinez"
     start_time: "0940"
     length: 20
   - name: "Break"
     description: "Streeetch and say hello to your neighbors!"
     start_time: "1000"
     length: 15
-  - speaker_name: "Lauren Scott"
+  - speaker_name: "Nat Tarnoff"
     start_time: "1015"
     length: 30
   - speaker_name: "Lyn Muldrow"
@@ -114,7 +114,7 @@
   - name: "Short break"
     start_time: "1600"
     length: 15
-  - speaker_name: "Kronda Adair"
+  - speaker_name: "Alex Harms"
     start_time: "1615"
     length: 30
   - name: "Outro"
