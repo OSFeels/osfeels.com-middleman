@@ -1,13 +1,13 @@
 ---
 - name: "Friday"
-  date: "July 22nd, 2016"
+  date: "July 22nd"
   events:
   - name: "Registration & Coffee"
     description: "Coffee and tea provided"
     start_time: "0800"
     length: 60
   - name: "Hello & Welcome"
-    description: "Welcome to Day 1 of Open Source & Feelings."
+    description: "Welcome to Day 1 of Open Source & Feelings"
     start_time: "0900"
     length: 15
   - speaker_name: "Nicole Sanchez"
@@ -55,21 +55,15 @@
   - name: "Outro"
     start_time: "1650"
     length: 10 
-  - name: "Friday Morning Anchor Tag"
-    anchor-name: "friday-morning"
-    start_time: "0900"
-  - name: "Friday Afternoon Anchor Tag"
-    anchor-name: "friday-afternoon"
-    start_time: "1300"
 - name: "Saturday"
-  date: "July 23rd, 2016"
+  date: "July 23rd"
   events:
   - name: "Coffee & Mingling"
     description: "Coffee and tea provided"
     start_time: "0830"
     length: 30
   - name: "Good Morning!"
-    description: "Welcome to Day 2 of Open Source & Feelings."
+    description: "Welcome to Day 2 of Open Source & Feelings"
     start_time: "0900"
     length: 10  
   - speaker_name: "Forrest Lehwalder Norvell"
@@ -120,9 +114,3 @@
   - name: "Outro"
     start_time: "1645"
     length: 15
-  - name: "Saturday Morning Anchor Tag"
-    anchor-name: "saturday-morning"
-    start_time: "0900"
-  - name: "Saturday Afternoon Anchor Tag"
-    anchor-name: "saturday-afternoon"
-    start_time: "1200"
