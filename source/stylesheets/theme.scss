@@ -625,6 +625,12 @@ main {
         max-width: 70%;
       }
     }
+
+    .col-1 {
+        text-align: center;
+        margin-left: 6rem;
+        width: 75%;
+    }
   }
 
   @media (max-width: $tablet) {

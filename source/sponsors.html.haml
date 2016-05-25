@@ -7,16 +7,17 @@
     %h2.teal Thank You to Our 2016 Conference Sponsors!
     %p.text-center Open Source & Feelings wouldn't be possible without the support of our wonderful sponsors.
 
-  -# .row.confetti.lightning
-  -#   %h2.purple Committer Sponsors
-  -#
-  -# - data.sponsors.committers.sort_by { |sponsor| sponsor["name"] }.each do |sponsor|
-  -#   .row.sponsor
-  -#     %h3{ id: generate_slug(sponsor["name"]) }
-  -#       %a{ href: sponsor["url"], target:"_blank" }
-  -#         %img{ src: "/images/sponsors/#{ sponsor["image"] }", alt: "#{ sponsor["name"] } logo" }
-  -#     - if sponsor["blurb"]
-  -#       %p= sponsor["blurb"]
+  .row.confetti.lightning
+    %h2.purple Committer Sponsors
+
+  - data.sponsors.committers.sort_by { |sponsor| sponsor["name"] }.each do |sponsor|
+    .row.sponsor
+      .col-1   
+        %h3{ id: generate_slug(sponsor["name"]) }
+          %a{ href: sponsor["url"], target:"_blank" }
+            %img{ src: "/images/sponsors/#{ sponsor["image"] }", alt: "#{ sponsor["name"] } logo" }
+        - if sponsor["blurb"]
+          %p= sponsor["blurb"]
 
   .row.confetti.lightning
     %h2.purple Contributor Sponsors
@@ -32,6 +33,19 @@
             - if sponsor["blurb"]
               %p= sponsor["blurb"]
 
+  .row.confetti.lightning
+    %h2.purple Travel Fund Ambassadors
+    
+  - data.sponsors.travelambassadors.sort_by { |sponsor| sponsor["name"] }.each do |sponsor|
+    .row.sponsor
+      .col-1
+        %h3{ id: generate_slug(sponsor["name"]) }
+          %a{ href: sponsor["url"], target:"_blank" }
+            %img{ src: "/images/sponsors/#{ sponsor["image"] }", alt: "#{ sponsor["name"] } logo" }
+        - if sponsor["blurb"]
+          %p= sponsor["blurb"]
+
+
   .row.confetti.smile
     %h2.purple In-Kind Sponsors
 
@@ -45,3 +59,5 @@
                 %img{ src: "/images/sponsors/in-kind/#{ sponsor["image"] }", alt: "#{ sponsor["name"] } logo" }
             - if sponsor["blurb"]
               %p= sponsor["blurb"]
+
+
