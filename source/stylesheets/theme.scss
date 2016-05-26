@@ -203,7 +203,7 @@ img {
   }
 
   .col-2 > * {
-    width: 40%;
+    width: 50%;
     display: block;
     float: left;
   }
@@ -446,100 +446,94 @@ main {
     }
   }
 
-  // TODO: Update this section when we add the schedule
   .schedule {
-    .info {
-      float: left;
-      padding-right: 10px;
-
-      .text-center {
-        padding-right: 20px;
-      }
-    }
-
-    .details {
-      width: 60%;
-      min-height: 100px;
-      padding-left: 25px;
-      padding-bottom: 30px;
-      float: left;
-      position: relative;
-
-      &:before {
-        content: "";
-        height: 100%;
-        width: 1.75px;
-        background-color: $teal;
-        position: absolute;
-        left: -21px;
-        top: 20px;
-        z-index: -1;
-      }
-    }
-
-    .time {
-      margin: 0;
-
-      &:after {
-        content: "";
-        background-image: url("/images/smile_confetti.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-color: $white;
-        height: 20px;
-        width: 20px;
-        float: right;
-      }
-    }
-
-    .event {
+    .day-wrapper {
       .day {
-        &:first-child {
-          .time:after {
-            background-image: url("/images/heart_confetti.png");
+        margin-bottom: 3rem;
+      }
+
+      table {
+        border-collapse: collapse;
+
+        p {
+          text-align: left;
+        }
+
+        .time-wrapper {
+          width: 50%;
+          padding-right: 2rem;
+          position: relative;
+
+          .time {
+            text-align: right;
           }
 
-          .details:before {
-            background-color: $yellow;
+          .length {
+            font-style: italic;
+            text-align: right;
+          }
+
+          &:before {
+            content: "";
+            background-image: url("/images/heart_confetti.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-color: $white;
+            height: 1.5rem;
+            width: 1.5rem;
+            position: absolute;
+            right: -0.9rem;
+            top: -0.5rem;
+          }
+        }
+
+        tr:first-child .time-wrapper:before {
+          background-image: none;
+        }
+
+        .details-wrapper {
+          padding-left: 2rem;
+          height: 15rem;
+          border-left: $purple solid 0.2rem;
+
+          .name {
+            text-align: left;
           }
         }
       }
-    }
 
-    .item:last-of-type .details:before {
-      height: 0;
-    }
-
-    @media (max-width: 990px) {
-      .info { width: 25%; }
-      .details { width: 75%; }
-    }
-
-    @media (max-width: 770px) {
-      .details { padding-left: 5px; }
-    }
-
-    @media (max-width: 550px) {
-      .info { width: 35%; }
-
-      .details {
-        width: 65%;
-        padding-left: 25px;
+      &:first-child {
+        .details-wrapper {
+          padding-right: 1rem;
+        }
       }
-    }
 
-    @media (max-width: 500px) {
-      .info { width: 40%; }
+      &:last-child {
+        .details-wrapper {
+          border-left: $teal solid 0.2rem;
+        }
 
-      .details {
-        width: 60%;
-        padding-left: 3px;
+        .time-wrapper:before {
+          background-image: url("/images/smile_confetti.png");
+        }
       }
-    }
 
-    @media (max-width: 400px) {
-      .info { width: 45%; }
-      .details { width: 55%; }
+      @media (max-width: $tablet) {
+        width: 100%;
+
+        table {
+          .time-wrapper {
+            width: initial;
+          }
+        }
+
+        &:first-child {
+          .details-wrapper {
+            height: 10rem;
+            padding-right: 0;
+          }
+        }
+      }
     }
   }
 

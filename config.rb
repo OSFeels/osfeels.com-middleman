@@ -87,6 +87,7 @@ helpers do
   def format_time(start)
     parsed_time = Time.strptime(start, "%H%M")
     parsed_time.strftime("%l:%M %p")
+               .gsub(" ", "&nbsp;")
   end
 
   def generate_slug(name)

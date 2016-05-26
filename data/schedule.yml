@@ -1,13 +1,13 @@
 ---
 - name: "Friday"
-  date: "July 22nd, 2016"
+  date: "July 22nd"
   events:
   - name: "Registration & Coffee"
     description: "Coffee and tea provided"
     start_time: "0800"
     length: 60
   - name: "Hello & Welcome"
-    description: "Welcome to Day 1 of Open Source & Feelings."
+    description: "Welcome to Day 1 of Open Source & Feelings"
     start_time: "0900"
     length: 15
   - speaker_name: "Nicole Sanchez"
@@ -20,7 +20,7 @@
     description: "Now with 100% more happiness and mingling!"  
     start_time: "1030"
     length: 20
-  - speaker_name: "Emily Martinez"
+  - speaker_name: "Jennifer Tu"
     start_time: "1050"
     length: 20
   - speaker_name: "Christine Bryant-Ryback"
@@ -44,45 +44,39 @@
     length: 20
   - name: "Snack break!"
     description: "Omnomnoms, friends, and chats."
-    start_time: "1530"
+    start_time: "1520"
     length: 30
-  - speaker_name: "Forrest Lehwalder Norvell"
-    start_time: "1600"
-    length: 20
-  - speaker_name: "Alex Harms"
+  - speaker_name: "Lauren Scott"
+    start_time: "1550"
+    length: 30
+  - speaker_name: "Kronda Adair"
     start_time: "1620"
     length: 30
   - name: "Outro"
     start_time: "1650"
     length: 10 
-  - name: "Friday Morning Anchor Tag"
-    anchor-name: "friday-morning"
-    start_time: "0900"
-  - name: "Friday Afternoon Anchor Tag"
-    anchor-name: "friday-afternoon"
-    start_time: "1300"
 - name: "Saturday"
-  date: "July 23rd, 2016"
+  date: "July 23rd"
   events:
   - name: "Coffee & Mingling"
     description: "Coffee and tea provided"
     start_time: "0830"
     length: 30
   - name: "Good Morning!"
-    description: "Welcome to Day 2 of Open Source & Feelings."
+    description: "Welcome to Day 2 of Open Source & Feelings"
     start_time: "0900"
     length: 10  
-  - speaker_name: "Nat Tarnoff"
+  - speaker_name: "Forrest Lehwalder Norvell"
     start_time: "0910"
     length: 30
-  - speaker_name: "Jennifer Tu"
+  - speaker_name: "Emily Martinez"
     start_time: "0940"
     length: 20
   - name: "Break"
     description: "Streeetch and say hello to your neighbors!"
     start_time: "1000"
     length: 15
-  - speaker_name: "Lauren Scott"
+  - speaker_name: "Nat Tarnoff"
     start_time: "1015"
     length: 30
   - speaker_name: "Lyn Muldrow"
@@ -114,15 +108,9 @@
   - name: "Short break"
     start_time: "1600"
     length: 15
-  - speaker_name: "Kronda Adair"
+  - speaker_name: "Alex Harms"
     start_time: "1615"
     length: 30
   - name: "Outro"
     start_time: "1645"
     length: 15
-  - name: "Saturday Morning Anchor Tag"
-    anchor-name: "saturday-morning"
-    start_time: "0900"
-  - name: "Saturday Afternoon Anchor Tag"
-    anchor-name: "saturday-afternoon"
-    start_time: "1200"
