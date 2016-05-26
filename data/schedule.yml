@@ -46,10 +46,7 @@
     description: "Omnomnoms, friends, and chats."
     start_time: "1520"
     length: 30
-  # - speaker_name: "Lauren Scott"
-  #   start_time: "1550"
-  #   length: 30
-  - name: "TBA"
+  - speaker_name: "Lauren Scott"
     start_time: "1550"
     length: 30
   - speaker_name: "Kronda Adair"
