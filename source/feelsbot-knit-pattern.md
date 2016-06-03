@@ -78,15 +78,25 @@ row 22: cast off!
 We'll need two finished pieces of the below:
 
 row 1: CO 12
+
 row 2 - 12: K12
+
 row 13: SSK, K8, K2TOG
+
 row 14: K10
+
 row 15: SSK, K6, K2TOG
+
 row 16: K8
+
 row 17: SSK, K4, K2TOG
+
 row 18: K6
+
 row 19: SSK, K2, K2TOG
+
 row 20: K4
+
 row 21: cast off!
 
 
@@ -94,5 +104,7 @@ row 21: cast off!
 ## Head - Back
 
 row 1: CO 16
+
 row 2 - 31: K till end of row
+
 row 32: cast off!
