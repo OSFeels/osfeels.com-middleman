@@ -12,9 +12,11 @@ One hank each of the following Cascade 220 colors:
 
 1 set straight or circular knitting needles, US8
 
-1 set dpn needles, US8
+1 set double-pointed (dpn) needles, US8
 
 tapestry needle for ends weaving
+
+plush toy stuffing of your choice (4 oz?)
 
 ## Head - Front
 
@@ -76,6 +78,7 @@ __row 21:__ P16 DRK
 
 __row 22:__ cast off!
 
+
 ## Head - Sides
 
 For this, we'll use the heathered teal color only.
@@ -123,17 +126,31 @@ For this, we'll use the heathered dark green color only.
 
 We'll need one finished piece of the following:
 
+__row 1:__ Using the dpn needles, CO 8
+__rows 2 - rows 6:__ K in the round
+__row 7:__ cast off!
+
 ## Arms
 
 For this, we'll use the heathered dark green color only.
 
 We'll need two finished pieces of the following:
 
+__row 1:__ Using the dpn needles, CO 8
+__rows 2 - rows 19:__ K in the round
+__row 20:__ cast off!
+
 ## Hands
 
 For this, we'll use the heathered teal color only.
 
 We'll need two finished pieces of the following:
+
+__row 1:__ Using the dpn needles, CO 8
+__rows 2 - rows 13:__ K in the round
+__row 14:__ cast off!
+
+
 
 ## Body - Front
 
@@ -149,9 +166,56 @@ For this, we'll use the heathered dark green color only.
 
 We'll need two finished pieces of the following:
 
+__row 1:__ Using the dpn needles, CO 8
+__rows 2 - rows 29:__ K in the round
+__row 30:__ cast off!
+
 ## Feet
 
 For this, we'll use the heathered teal and the heathered dark green.
 
 We'll need two finished pieces of the following:
 
+## General Assembly
+
+Once all the pieces have been knit, you'll want to do the following steps. Unless otherwise indicated, please assume all sewing will use the mattress stitch technique. Video instructions on mattress stitching may be found here: https://www.youtube.com/watch?v=nJ7KEGUTlJM
+
+1. Using a tapestry needle, weave all loose ends into the work.
+1. Felt all of the pieces using a washing machine, suds, and HOT water.
+1. Assemble the head via whip-stitching:
+   1. Sew the "back-side" pieces to the sides of the face of Feelsbot.
+   1. Sew the "back-back" piece to the forehead and "back-sides" of the Feelsbot.
+   1. Stuff the head with stuffing.
+   1. Sew the remaining flap of the "back-back" piece and the feelsbot chin.
+1. Sew the neck to the head.
+1. Stuff the neck with stuffing - set aside for now.
+1. Assemble the hands:
+   1. Sew one end of one of the hands.
+   1. Stuff the hand with stuffing, then sew the other end of the hand.
+   1. Using a tapestry needle, sew through one end of the hand tube created.
+   1. Using the hand sewing gathering technique (https://www.youtube.com/watch?v=o256Ppwf55Q), sew through the center of the tube and pull taut so that the hand curvature is created for the claw.
+   1. Repeat the above for the second claw!
+ 1. Now, onto the arms assembly:
+   1. Sew one end of one of the arms.
+   1. Stuff the arm with stuffing until desired shape is achieved.
+   1. Sew the open end of the arm to a hand that you have just created in the above steps
+   1. Repeat the above arm assembly steps for the other arm you need to create.
+ 1. Next, we'll work on the body:
+   1. With the front of the body front piece facing the body back piece, sew three sides of the pieces together.  When you come to sewing the fourth side, sew half of the side.
+   1. Turn the work "inside-out" so that you can see the body pattern on the outside.
+   1. Stuff the body until desired shape is achieved.
+   1. Continue to sew the remaining fourth side shut.
+1. Sew each of the arms to the top left and top right of the body.
+1. Assemble those feets!
+   1. Sew the side foot strip to the bottom foot strip.
+   1. Sew the the top foor strip to the side foot strip until there's only 1" left open
+   1. Flip "inside-out" and stuff with stuffing until desired shape is achieved.
+   1. Sew remaining top foot to the side foot.
+   1. Repeat the above steps to create the second foot!
+1. Assemble the leggies!
+   1. Sew one end of the one of the legs
+   1. Stuff the leg with stuffing until desired shape is achieved.
+   1. Sew the open end of the leg to a foot that you have just created in the above steps
+   1. Repeat the above leg assembly steps for the other leg you need to create.
+1. Sew the legs to the body.
+1. Love on the Feelsbot that you have just lovingly constructed. Hooray! <3
