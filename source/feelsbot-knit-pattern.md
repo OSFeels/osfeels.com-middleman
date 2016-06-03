@@ -3,12 +3,12 @@
 -------------------------------
 
 ## Materials Needed
-One hank each of the following Cascade 220 colors:__
+One hank each of the following Cascade 220 colors:
 
-* DRK:__ dark heathered green
-* T:__   heathered teal
-* Y:__   yellow
-* P:__   purple
+* DRK: dark heathered green
+* T:   heathered teal
+* Y:   yellow
+* P:   purple
 
 1 set straight or circular knitting needles, US8
 1 set dpn needles, US8
@@ -21,11 +21,11 @@ I have used both Fair Isle and Intarsia techniques for this, and
 both have their pros/cons. 
 
 If you've never done multi-colored knitting before, these videos
-are great references:__
+are great references:
 
-Fair Isle:__ http:__//www.knittinghelp.com/video/play/fair-isle-color-knitting
+Fair Isle: http://www.knittinghelp.com/video/play/fair-isle-color-knitting
 
-Intarsia:__  http:__//www.knittinghelp.com/video/play/intarsia-color-knitting
+Intarsia:  http://www.knittinghelp.com/video/play/intarsia-color-knitting
 
 Pick the method that works the best for you. <3
 
@@ -75,7 +75,7 @@ __row 22:__ cast off!
 
 ## Head - Sides
 
-We'll need two finished pieces of the below:__
+We'll need two finished pieces of the below:
 
 __row 1:__ CO 12
 
@@ -105,6 +105,6 @@ __row 21:__ cast off!
 
 __row 1:__ CO 16
 
-__row 2 - 31:__ K till end of __row
+__row 2 - 31:__ K till end of row
 
 __row 32:__ cast off!
