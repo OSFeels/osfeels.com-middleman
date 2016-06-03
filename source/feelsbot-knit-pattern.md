@@ -3,12 +3,12 @@
 -------------------------------
 
 ## Materials Needed
-One hank each of the following Cascade 220 colors:
+One hank each of the following Cascade 220 colors:__
 
-DRK: dark heathered green
-T:   heathered teal
-Y:   yellow
-P:   purple
+* DRK:__ dark heathered green
+* T:__   heathered teal
+* Y:__   yellow
+* P:__   purple
 
 1 set straight or circular knitting needles, US8
 1 set dpn needles, US8
@@ -21,90 +21,90 @@ I have used both Fair Isle and Intarsia techniques for this, and
 both have their pros/cons. 
 
 If you've never done multi-colored knitting before, these videos
-are great references:
+are great references:__
 
-Fair Isle: http://www.knittinghelp.com/video/play/fair-isle-color-knitting
+Fair Isle:__ http:__//www.knittinghelp.com/video/play/fair-isle-color-knitting
 
-Intarsia:  http://www.knittinghelp.com/video/play/intarsia-color-knitting
+Intarsia:__  http:__//www.knittinghelp.com/video/play/intarsia-color-knitting
 
 Pick the method that works the best for you. <3
 
-row 1: CO 16 using DRK
+__row 1:__ CO 16 using DRK
 
-row 2: K1 DRK, K14 P, K1 DRK
+__row 2:__ K1 DRK, K14 P, K1 DRK
 
-row 3: P1 DRK, P14 P, P1 DRK
+__row 3:__ P1 DRK, P14 P, P1 DRK
 
-row 4: K1 DRK, K14 P, K1 DRK
+__row 4:__ K1 DRK, K14 P, K1 DRK
 
-row 5: P1 DRK, P4 P, P6 Y, P4 P, P1 DRK   
+__row 5:__ P1 DRK, P4 P, P6 Y, P4 P, P1 DRK   
 
-row 6: K1 DRK, K4 P, K6 Y, K4 P, K1 DRK
+__row 6:__ K1 DRK, K4 P, K6 Y, K4 P, K1 DRK
 
-row 7: P1 DRK, P4 P, P6 Y, P4 P, P1 DRK
+__row 7:__ P1 DRK, P4 P, P6 Y, P4 P, P1 DRK
 
-row 8: K1 DRK, K2 P, K2 Y, K6 P, K2 Y, K2 P, K1 DRK
+__row 8:__ K1 DRK, K2 P, K2 Y, K6 P, K2 Y, K2 P, K1 DRK
 
-row 9: P1 DRK, P2 P, P2 Y, P6 P, P2 Y, P2 P, P1 DRK
+__row 9:__ P1 DRK, P2 P, P2 Y, P6 P, P2 Y, P2 P, P1 DRK
 
-row 10: K1 DRK, K2 P, K2 Y, K6 P, K2 Y, K2 P, K1 DRK
+__row 10:__ K1 DRK, K2 P, K2 Y, K6 P, K2 Y, K2 P, K1 DRK
 
-row 11: P1 DRK, P14 P, P1 DRK
+__row 11:__ P1 DRK, P14 P, P1 DRK
 
-row 12: K1 DRK, K14 P, K1 DRK
+__row 12:__ K1 DRK, K14 P, K1 DRK
 
-row 13: P1 DRK, P2 P, P4 Y, P2 P, P4 Y, P2 P, P1 DRK
+__row 13:__ P1 DRK, P2 P, P4 Y, P2 P, P4 Y, P2 P, P1 DRK
 
-row 14: K1 DRK, K2 P, K4 Y, K2 P, K4 Y, K2 P, K1 DRK
+__row 14:__ K1 DRK, K2 P, K4 Y, K2 P, K4 Y, K2 P, K1 DRK
 
-row 15: P1 DRK, P2 P, P4 Y, P2 P, P4 Y, P2 P, P1 DRK
+__row 15:__ P1 DRK, P2 P, P4 Y, P2 P, P4 Y, P2 P, P1 DRK
 
-row 16: K1 DRK, K2 P, K4 Y, K2 P, K4 Y, K2 P, K1 DRK
+__row 16:__ K1 DRK, K2 P, K4 Y, K2 P, K4 Y, K2 P, K1 DRK
 
-row 17: P1 DRK, P2 P, P4 Y, P2 P, P4 Y, P2 P, P1 DRK
+__row 17:__ P1 DRK, P2 P, P4 Y, P2 P, P4 Y, P2 P, P1 DRK
 
-row 18: K1 DRK, K2 P, K4 Y, K2 P, K4 Y, K2 P, K1 DRK
+__row 18:__ K1 DRK, K2 P, K4 Y, K2 P, K4 Y, K2 P, K1 DRK
 
-row 19: P1 DRK, P14 P, P1 DRK
+__row 19:__ P1 DRK, P14 P, P1 DRK
 
-row 20: K1 DRK, K14 P, K1 DRK
+__row 20:__ K1 DRK, K14 P, K1 DRK
 
-row 21: P16 DRK
+__row 21:__ P16 DRK
 
-row 22: cast off!
+__row 22:__ cast off!
 
 ## Head - Sides
 
-We'll need two finished pieces of the below:
+We'll need two finished pieces of the below:__
 
-row 1: CO 12
+__row 1:__ CO 12
 
-row 2 - 12: K12
+__row 2 - 12:__ K12
 
-row 13: SSK, K8, K2TOG
+__row 13:__ SSK, K8, K2TOG
 
-row 14: K10
+__row 14:__ K10
 
-row 15: SSK, K6, K2TOG
+__row 15:__ SSK, K6, K2TOG
 
-row 16: K8
+__row 16:__ K8
 
-row 17: SSK, K4, K2TOG
+__row 17:__ SSK, K4, K2TOG
 
-row 18: K6
+__row 18:__ K6
 
-row 19: SSK, K2, K2TOG
+__row 19:__ SSK, K2, K2TOG
 
-row 20: K4
+__row 20:__ K4
 
-row 21: cast off!
+__row 21:__ cast off!
 
 
 
 ## Head - Back
 
-row 1: CO 16
+__row 1:__ CO 16
 
-row 2 - 31: K till end of row
+__row 2 - 31:__ K till end of __row
 
-row 32: cast off!
+__row 32:__ cast off!
