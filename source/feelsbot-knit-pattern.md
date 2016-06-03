@@ -8,7 +8,7 @@ One hank each of the following Cascade 220 colors:
 * DRK: dark heathered green
 * T:   heathered teal
 * Y:   yellow
-* Pur:   purple
+* PUR: purple
 
 1 set straight or circular knitting needles, US8
 
@@ -34,43 +34,43 @@ Pick the method that works the best for you. <3
 
 __row 1:__ CO 16 using DRK
 
-__row 2:__ K1 DRK, K14 Pur, K1 DRK
+__row 2:__ K1 DRK, K14 PUR, K1 DRK
 
-__row 3:__ P1 DRK, P14 Pur, P1 DRK
+__row 3:__ P1 DRK, P14 PUR, P1 DRK
 
-__row 4:__ K1 DRK, K14 Pur, K1 DRK
+__row 4:__ K1 DRK, K14 PUR, K1 DRK
 
-__row 5:__ P1 DRK, P4 Pur, P6 Y, P4 Pur, P1 DRK   
+__row 5:__ P1 DRK, P4 PUR, P6 Y, P4 PUR, P1 DRK   
 
-__row 6:__ K1 DRK, K4 Pur, K6 Y, K4 Pur, K1 DRK
+__row 6:__ K1 DRK, K4 PUR, K6 Y, K4 PUR, K1 DRK
 
-__row 7:__ P1 DRK, P4 Pur, P6 Y, P4 Pur, P1 DRK
+__row 7:__ P1 DRK, P4 PUR, P6 Y, P4 PUR, P1 DRK
 
-__row 8:__ K1 DRK, K2 Pur, K2 Y, K6 Pur, K2 Y, K2 Pur, K1 DRK
+__row 8:__ K1 DRK, K2 PUR, K2 Y, K6 PUR, K2 Y, K2 PUR, K1 DRK
 
-__row 9:__ P1 DRK, P2 Pur, P2 Y, P6 Pur, P2 Y, P2 Pur, P1 DRK
+__row 9:__ P1 DRK, P2 PUR, P2 Y, P6 PUR, P2 Y, P2 PUR, P1 DRK
 
-__row 10:__ K1 DRK, K2 Pur, K2 Y, K6 Pur, K2 Y, K2 Pur, K1 DRK
+__row 10:__ K1 DRK, K2 PUR, K2 Y, K6 PUR, K2 Y, K2 PUR, K1 DRK
 
-__row 11:__ P1 DRK, P14 Pur, P1 DRK
+__row 11:__ P1 DRK, P14 PUR, P1 DRK
 
-__row 12:__ K1 DRK, K14 Pur, K1 DRK
+__row 12:__ K1 DRK, K14 PUR, K1 DRK
 
-__row 13:__ P1 DRK, P2 Pur, P4 Y, P2 Pur, P4 Y, P2 Pur, P1 DRK
+__row 13:__ P1 DRK, P2 PUR, P4 Y, P2 PUR, P4 Y, P2 PUR, P1 DRK
 
-__row 14:__ K1 DRK, K2 Pur, K4 Y, K2 Pur, K4 Y, K2 Pur, K1 DRK
+__row 14:__ K1 DRK, K2 PUR, K4 Y, K2 PUR, K4 Y, K2 PUR, K1 DRK
 
-__row 15:__ P1 DRK, P2 Pur, P4 Y, P2 Pur, P4 Y, P2 Pur, P1 DRK
+__row 15:__ P1 DRK, P2 PUR, P4 Y, P2 PUR, P4 Y, P2 PUR, P1 DRK
 
-__row 16:__ K1 DRK, K2 Pur, K4 Y, K2 Pur, K4 Y, K2 Pur, K1 DRK
+__row 16:__ K1 DRK, K2 PUR, K4 Y, K2 PUR, K4 Y, K2 PUR, K1 DRK
 
-__row 17:__ P1 DRK, P2 Pur, P4 Y, P2 Pur, P4 Y, P2 Pur, P1 DRK
+__row 17:__ P1 DRK, P2 PUR, P4 Y, P2 PUR, P4 Y, P2 PUR, P1 DRK
 
-__row 18:__ K1 DRK, K2 Pur, K4 Y, K2 Pur, K4 Y, K2 Pur, K1 DRK
+__row 18:__ K1 DRK, K2 PUR, K4 Y, K2 PUR, K4 Y, K2 PUR, K1 DRK
 
-__row 19:__ P1 DRK, P14 Pur, P1 DRK
+__row 19:__ P1 DRK, P14 PUR, P1 DRK
 
-__row 20:__ K1 DRK, K14 Pur, K1 DRK
+__row 20:__ K1 DRK, K14 PUR, K1 DRK
 
 __row 21:__ P16 DRK
 
