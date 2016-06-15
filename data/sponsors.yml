@@ -1,5 +1,9 @@
 ---
 inkind:
+  - name: Empathetic Technical Leader
+    url: http://www.empathetictechnicalleader.com/
+    image: empathetictechnicalleader-logo.png
+    blurb: The Empathetic Technical Leader is a project of Maitria as part of our mission to bring more geek joy to technical work.
   - name: NIRD
     url: http://nird.us
     image: nird-logo.png
@@ -12,6 +16,10 @@ inkind:
     url: http://nostarchpress.com
     image: nostarch-logo.jpg
     blurb: "No Starch Press publishes the finest in geek entertainment — distinctive books on computing, such as bestsellers Steal This Computer Book, Hacking: The Art of Exploitation, Practical Packet Analysis, and The Manga Guides. We focus on open source/Linux, security, hacking, programming, alternative operating systems, and science and math."
+  - name: The Recompiler
+    url: https://recompilermag.com/
+    image: recompiler-logo.jpg
+    blurb: "The Recompiler is a feminist hacker magazine, launched in 2015. Our goal is to help people learn about technology in a fun, playful way, and highlight a diverse range of backgrounds and experiences. We’re especially interested in infrastructure: the technical and social systems we depend on. We want to share what it’s like to learn and work with technology, and teach each other to build better systems and tools."    
   - name: StickerMule
     url:  http://www.stickermule.com
     image: sticker-mule-logo.png
