@@ -45,6 +45,10 @@ contributors:
     blurb: "At ActBlue, we build and power the premier online fundraising platform for Democratic campaigns, progressive organizations, and charities working to create a better future. We put power in the hands of small-dollar donors and make giving online as easy as possible. And we work with thousands of groups -- from presidential candidates to environmental organizations to local school board members."
 maintainers:
 travelambassadors:
+  - name: Digital Ocean
+    url: http://www.digitalocean.com
+    image: digital-ocean-logo.png
+    blurb: "DigitalOcean is the world’s fastest growing cloud hosting provider built for developers. Our mission is simple: we’re passionate about making complex infrastructure simple and delighting our customers with a seamless experience that brings them joy. New users can easily deploy a blazing fast cloud server in 55 seconds with an intuitive control panel interface, which can be replicated on a larger scale with the company’s straightforward API."
   - name: Hood.ie
     url: http://www.hood.ie
     image: hoodie-logo.png
