@@ -1,5 +1,9 @@
 ---
 inkind:
+  - name: Office Nomads
+    url: http://officenomads.com/
+    image: office-nomads-logo.jpg
+    blurb: "Office Nomads is a coworking community in Capitol Hill, Seattle. We are dedicated to cultivating a dynamic, creative and collaborative environment for Seattle’s nomadic workforce. We believe that by working together we can accomplish more than we could alone."
   - name: Empathetic Technical Leader
     url: http://www.empathetictechnicalleader.com/
     image: empathetictechnicalleader-logo.png
