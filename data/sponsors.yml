@@ -29,6 +29,10 @@ inkind:
     image: sticker-mule-logo.png
     blurb: "StickerMule helps thousands of people, startups, bloggers, artists and companies order awesome stickers that are printed beautifully and ship fast."
 committers:
+  - name: Github
+    url: https://www.github.com
+    image: github-logo.png
+    blurb: "GitHub is how people build software. With a community of more than 14 million people, developers can discover, use, and contribute to over 35 million projects using a powerful collaborative development workflow." 
   - name: Google Chrome
     url: https://www.google.com/chrome/
     image: chrome-logo.png 
@@ -57,8 +61,4 @@ travelambassadors:
     url: http://www.hood.ie
     image: hoodie-logo.png
     blurb: "Hoodie enables you to express yourself through technology by making web application development very fast, easy and accessible."
-toannounce:
-  - name: Github
-    url: https://www.github.com
-    image: github-logo.png
-    blurb: "GitHub is how people build software. With a community of more than 14 million people, developers can discover, use, and contribute to over 35 million projects using a powerful collaborative development workflow." 
+  
