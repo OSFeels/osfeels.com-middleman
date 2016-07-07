@@ -1,5 +1,9 @@
 ---
 inkind:
+  - name: Sound Off Tech
+    url: http://soundofftech.org/
+    image: sound-off-tech-logo.png
+    blurb: "Sound Off is a non-profit that works to increase the access marginalized people in tech have to professional opportunities."
   - name: Office Nomads
     url: http://officenomads.com/
     image: office-nomads-logo.jpg
