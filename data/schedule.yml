@@ -66,7 +66,7 @@
     description: "Welcome to Day 2 of Open Source & Feelings"
     start_time: "0900"
     length: 10  
-  - speaker_name: "Forrest Lehwalder Norvell"
+  - speaker_name: "TBD"
     start_time: "0910"
     length: 30
   - speaker_name: "Emily Martinez"
@@ -108,7 +108,7 @@
   - name: "Short break"
     start_time: "1600"
     length: 15
-  - speaker_name: "Alex Harms"
+  - speaker_name: "Forrest Lehwalder Norvell"
     start_time: "1615"
     length: 30
   - name: "Outro"
