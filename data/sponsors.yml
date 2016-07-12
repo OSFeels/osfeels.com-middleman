@@ -42,6 +42,10 @@ committers:
     image: chrome-logo.png 
     blurb: "Google Chrome is a fast, simple, and secure web browser, built for the modern web. It's based on Chromium, an open source browser project."
 contributors:
+  - name: Knight-Mozilla OpenNews
+    url: https://opennews.org/
+    image: knight-mozilla-opennews.jpg
+    blurb: "OpenNews is a joint project of Mozilla and the Knight Foundation dedicated to helping journalism thrive on the open web. We are building an ecosystem of tools and programs to strengthen and support the community of developers and data journalists in newsrooms."
   - name: Substantial
     url: http://substantial.com
     image: substantial-logo.png
