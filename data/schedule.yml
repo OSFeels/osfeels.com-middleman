@@ -16,7 +16,7 @@
   - speaker_name: "Shawn Rider"
     start_time: "0955"
     length: 35
-  - name: "coffee coffee coffee (and tea!)"
+  - name: "coffee coffee coffee (and tea! and hot chocolate! WITH MARSHMALLOWS!)"
     description: "Now with 100% more happiness and mingling!"  
     start_time: "1030"
     length: 20
@@ -42,8 +42,8 @@
   - speaker_name: "Lindsey Wilson"
     start_time: "1500"
     length: 20
-  - name: "Snack break!"
-    description: "Omnomnoms, friends, and chats."
+  - name: "Break!"
+    description: "Friends and chats."
     start_time: "1520"
     length: 30
   - speaker_name: "Lauren Scott"
@@ -58,8 +58,8 @@
 - name: "Saturday"
   date: "July 23rd"
   events:
-  - name: "Coffee & Mingling"
-    description: "Coffee and tea provided"
+  - name: "Mingling"
+    description: "Say hello to your conference friends!"
     start_time: "0830"
     length: 30
   - name: "Good Morning!"
@@ -72,8 +72,8 @@
   - speaker_name: "Emily Martinez"
     start_time: "0940"
     length: 20
-  - name: "Break"
-    description: "Streeetch and say hello to your neighbors!"
+  - name: "Coffee / Tea / Cocoa Break"
+    description: "Streeetch and get some coffee, tea, or hot chocolate."
     start_time: "1000"
     length: 15
   - speaker_name: "Nat Tarnoff"
@@ -98,7 +98,7 @@
   - speaker_name: "Tammarrian Rogers"
     start_time: "1430"
     length: 20
-  - name: "Afternoon snacks!"
+  - name: "Afternoon break!"
     description: "Walk about and say hello whilst enjoying the afternoon sun."
     start_time: "1450"
     length: 40
