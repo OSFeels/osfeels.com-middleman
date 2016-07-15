@@ -60,6 +60,11 @@ contributors:
     image: act-blue-logo.png
     blurb: "At ActBlue, we build and power the premier online fundraising platform for Democratic campaigns, progressive organizations, and charities working to create a better future. We put power in the hands of small-dollar donors and make giving online as easy as possible. And we work with thousands of groups -- from presidential candidates to environmental organizations to local school board members."
 maintainers:
+livecaptioning:
+  - name: Integer 32
+    url: http://www.integer32.com/
+    image: integer32-logo.svg
+    blurb: "Integer 32 is a consultancy that delivers high-quality Rust code. We can help you evaluate Rust for your problem, build a Rust MVP, and get your developers up to speed on Rust."
 travelambassadors:
   - name: Digital Ocean
     url: http://www.digitalocean.com

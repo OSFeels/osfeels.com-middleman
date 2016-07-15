@@ -32,6 +32,19 @@
                 %img{ src: "/images/sponsors/#{ sponsor["image"] }", alt: "#{ sponsor["name"] } logo" }
             - if sponsor["blurb"]
               %p= sponsor["blurb"]
+  
+  .row.confetti.lightning
+    %h2.purple Live Captioning Ambassadors
+    
+  - data.sponsors.livecaptioning.sort_by { |sponsor| sponsor["name"] }.each do |sponsor|
+    .row.sponsor
+      .col-1
+        %h3{ id: generate_slug(sponsor["name"]) }
+          %a{ href: sponsor["url"], target:"_blank" }
+            %img{ src: "/images/sponsors/#{ sponsor["image"] }", alt: "#{ sponsor["name"] } logo" }
+        - if sponsor["blurb"]
+          %p= sponsor["blurb"]
+
 
   .row.confetti.lightning
     %h2.purple Travel Fund Ambassadors
