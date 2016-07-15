@@ -1,11 +1,12 @@
 # 2016 Speakers
 ---
-- name: "TBD"
+- name: "Courtney Eckhardt"
   headshot: ""
-  title: ""
-  abstract: ""
-  handle: ""
-  website: ""
+  title: "Complex System Failures and Blameless Retrospectives"
+  abstract: "Seattle has two of the longest floating bridges in the world, and in 1990, one of them sank while it was being repurposed. To this day, the public reporting on the failure is extremely simplistic and full of fingerpointing- but the official investigation found that there were five factors involved and all of them were required for the bridge to fail. This accident was a classic complex systems failure, and there are a lot of really interesting things to learn both from the official findings and from the difference between those findings and the public coverage.
+    </p><p>
+    In the era of The Cloud and services like Wikipedia, more and more of us are going to be dealing with complex system failures and trying to understand what happened. When we ask \"what happened?\", the language most people answer with carries implied blame- we find ourselves talking about who made a mistake and what they should have done instead. But this doesn't help us understand what changes we can make to actually change the chance of experiencing that failure again and we don't learn how to make our systems more robust by suggesting that people not make mistakes. It's possible to do better and to be better to ourselves while we do it."
+  handle: "hashoctothorpe"
 - name: "Amy Wibowo"
   headshot: "amy-wibowo.jpg"
   title: "Now We're Cooking With STEAM: Humanities in Computer Science Education"

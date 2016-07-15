@@ -66,12 +66,12 @@
     description: "Welcome to Day 2 of Open Source & Feelings"
     start_time: "0900"
     length: 10  
-  - speaker_name: "TBD"
-    start_time: "0910"
-    length: 30
   - speaker_name: "Emily Martinez"
-    start_time: "0940"
+    start_time: "0910"
     length: 20
+  - speaker_name: "Courtney Eckhardt"
+    start_time: "0940"
+    length: 30
   - name: "Coffee / Tea / Cocoa Break"
     description: "Streeetch and get some coffee, tea, or hot chocolate."
     start_time: "1000"
