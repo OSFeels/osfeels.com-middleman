@@ -1,5 +1,11 @@
 # 2016 Speakers
 ---
+- name: "TBD"
+  headshot: ""
+  title: ""
+  abstract: ""
+  handle: ""
+  website: ""
 - name: "Amy Wibowo"
   headshot: "amy-wibowo.jpg"
   title: "Now We're Cooking With STEAM: Humanities in Computer Science Education"
@@ -81,19 +87,6 @@
     </p><p>
     This talk will explore the complex landscape of body image negotiation in tech-specific cultural spaces, and hopefully offer a couple of tools to enable a baseline level of body-positive communication with tech co-workers."
   handle: "hootbot"
-- name: "Alex Harms"
-  headshot: "alex-harms.jpg"
-  title: "Community is a verb"
-  abstract: 
-    "Shit blew up again. The maintainers of this repo were clueless & unhelpful. That conference refuses to use a code of conduct. The other conference has one but it's not enough. Twitter erupts, folks are angry and hurt, and people you thought were friends turn out to apparently be idiots!
-    </p><p>
-    One way to get through it would be to just get rid of all the idiots. But that's really hard, and besides, they might be trying to get rid of you.
-    </p><p>
-    How do you stay compassionate and get past the divide? How do you do that and stay true to your values? Is dialogue possible?
-    </p><p>
-    Empathy doesn't have to cost you your soul. Wielded with skill, it can make stuff hurt a lot less, leaving you energy for changing the world!"
-  handle: "onealexharms"
-  website: "http://www.empathetictechnicalleader.com"
 - name: "Rebecca Turner"
   headshot: "rebecca-turner.jpg"
   title: "Unpopular Tech and Why It Was AMAZING"
