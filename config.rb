@@ -28,6 +28,9 @@
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
+# newsletter referenced /visiting; add a proxy so it doesn't 404
+proxy "/visiting/index.html", "/about.html"
+
 data.previous_speakers.each do |conference|
   conference[:speakers].each do |speaker|
     slug = speaker[:name].downcase.gsub(/\s+/, '-')
