@@ -1,6 +1,6 @@
 ---
 inkind:
-  - name: Sound Off Tech
+  - name: Sound Off
     url: http://soundofftech.org/
     image: sound-off-tech-logo.png
     blurb: "Sound Off is a non-profit that works to increase the access marginalized people in tech have to professional opportunities."
@@ -42,6 +42,10 @@ committers:
     image: chrome-logo.png 
     blurb: "Google Chrome is a fast, simple, and secure web browser, built for the modern web. It's based on Chromium, an open source browser project."
 contributors:
+  - name: Dev Bootcamp
+    url: http://www.devbootcamp.com
+    image: dbc-logo.png
+    blurb: "Dev Bootcamp pioneered the coding bootcamp model in San Francisco, back in 2012. Now, we have campuses in Chicago, New York City, San Diego, Austin, Seattle, and DC. Each campus offers a 19-week immersive web development program intended for beginners and dabblers who are looking to start their programming careers. For more information, visit www.devbootcamp.com."
   - name: Knight-Mozilla OpenNews
     url: https://opennews.org/
     image: knight-mozilla-opennews.jpg
