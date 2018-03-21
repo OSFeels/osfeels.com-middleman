@@ -27,3 +27,11 @@ improved! <3
 - Our awesome branding and design were created by [Amy Wibowo](https://twitter.com/sailorhg)
 - Our site is built with [Middleman](https://middlemanapp.com)
 - Our hamburger menu animation was adapted from [Nathan Schmidt's Pure CSS Menu Transition](http://codepen.io/mrnathan8/details/mgFqJ)
+
+## License
+This project is released under the MIT License. Please see the accompanying [LICENSE.md](LICENSE.md) file for more details.
+
+[Open Source & Feelings](https://osfeels.com)'s website content is licensed [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)
+
+OS&F does not make any claim or grant any license to the content and presentations from any specific event. All content and presentations from OS&F events belong wholly to the presenting person(s) or organization.
