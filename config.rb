@@ -43,7 +43,7 @@ data.previous_speakers.each do |conference|
 end
 
 data.speakers.each do |speaker|
-  slug = speaker[:name].downcase.gsub(/\s+/, '-')
+  slug = speaker.name.downcase.gsub(/\s+/, '-')
 
   proxy "/speakers/#{slug}.html", "/individual_speaker.html",
     locals: { speaker: speaker },
@@ -101,7 +101,7 @@ helpers do
     items.sort_by { |item| item["name"] }
   end
 
-  def sort_by_length(items)
+  def sort_by_length(items = [])
     items.sort_by { |item| (item["abstract"] || []).length }
   end
 end
