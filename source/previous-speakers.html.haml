@@ -7,4 +7,4 @@
     %h2.blue= conference.year
     - sort_by_name(conference.speakers).each do |speaker|
       .col-md-8.col-md-offset-2
-        %p.text-center=link_to speaker[:name], "/previous-speakers/#{conference[:year]}/#{generate_slug(speaker[:name])}"
+        %p.text-center=link_to speaker.name, "/previous-speakers/#{conference.year}/#{generate_slug(speaker.name)}"

@@ -1,23 +1,22 @@
 .speakers.individual-speaker
   .speaker
     .row.page-title
-      %h2= "#{speaker[:name]}"
-
+      %h2= "#{speaker.name}"
     .row
-      - if speaker[:headshot] && speaker[:headshot] != ""
-        %img{ src: "/images/presenters/#{ speaker[:headshot]}", alt: speaker[:name] }
+      - if speaker.headshot && speaker.headshot != ""
+        %img{ src: "/images/presenters/#{ speaker.headshot}", alt: speaker.name }
       .details
-        %h3.title.text-left= speaker[:title]
+        %h3.title.text-left= speaker.title
         .abstract
-          %p= speaker[:abstract]
-        - if speaker[:bio] && speaker[:bio] != ""
+          %p= speaker.abstract
+        - if speaker.bio && speaker.bio != ""
           .bio
             %h4.text-left Speaker Bio
-            %p= speaker[:bio]
+            %p= speaker.bio
         .contact
-          - if speaker[:handle]
-            %a.confetti.inline.sm.heart{ href: "http://twitter.com/#{ speaker[:handle] }", target: "_blank" }= "@#{ speaker["handle"] }"
-          - if speaker[:website]
-            %a.confetti.inline.sm.speech{ href: speaker[:website], target: "_blank" } Website
-          - if speaker[:video_url]
-            %a.confetti.inline.sm.smile{ href: speaker[:video_url], target: "_blank" } Presentation Video
+          - if speaker.handle
+            %a.confetti.inline.sm.heart{ href: "http://twitter.com/#{ speaker.handle }", target: "_blank" }= "@#{ speaker["handle"] }"
+          - if speaker.website
+            %a.confetti.inline.sm.speech{ href: speaker.website, target: "_blank" } Website
+          - if speaker.video_url
+            %a.confetti.inline.sm.smile{ href: speaker.video_url, target: "_blank" } Presentation Video

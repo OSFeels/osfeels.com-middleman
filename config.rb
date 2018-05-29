@@ -32,10 +32,10 @@
 proxy "/visiting/index.html", "/about.html"
 
 data.previous_speakers.each do |conference|
-  conference[:speakers].each do |speaker|
-    slug = speaker[:name].downcase.gsub(/\s+/, '-')
+  conference.speakers.each do |speaker|
+    slug = speaker.name.downcase.gsub(/\s+/, '-')
 
-    proxy "/previous-speakers/#{conference[:year]}/#{slug}.html",
+    proxy "/previous-speakers/#{conference.year}/#{slug}.html",
       "/individual_speaker.html",
       locals: { speaker: speaker },
       ignore: true
