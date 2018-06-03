@@ -18,6 +18,8 @@
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
+page "2018.html", layout: "2018"
+page "2018conduct.html", layout: "2018"
 #
 # A path which all have the same layout
 # with_layout :admin do
@@ -103,6 +105,13 @@ helpers do
 
   def sort_by_length(items = [])
     items.sort_by { |item| (item["abstract"] || []).length }
+  end
+
+  def titlelize(name = "")
+    name
+      .split("_")
+      .map(&:capitalize)
+      .join(" ")
   end
 end
 
