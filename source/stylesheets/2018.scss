@@ -49,6 +49,20 @@ header {
   }
 
   nav {
+    a {
+      border-bottom: 1px solid $blue;
+      color: $blue;
+      text-decoration: none;
+      transition: all 0.1s ease;
+
+      &:visited { color: $blue; }
+      &:hover, &:active, &:focus {
+        border-color: $red;
+        color: $red;
+        outline: none;
+      }
+    }
+
     ul {
       display: flex;
       flex-direction: row;
