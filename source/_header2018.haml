@@ -1,0 +1,32 @@
+:ruby
+  same_page = %w(
+    event
+    presenters
+    sponsors
+    code_of_conduct
+  )
+
+  new_page = {
+    "tickets"             => "",
+    "prospectus"          => "/prospectus",
+    "diversity_statement" => "/diversity-statement",
+    "about"               => "/about"
+  }
+
+%header
+  %h1.logo= link_to "Open Source & Feelings", "/"
+  -# = tag :img, src: "/images/header-logo.png", alt: "Open Source & Feelings"
+  %nav#top{ "aria-label" => "Main Navigation" }
+    %ul{ role: "menubar" }
+      - same_page.each do |item|
+        %li= link_to titlelize(item), "##{item}"
+      - new_page.each do |item, path|
+        %li= link_to titlelize(item), path
+      -# %li= link_to "About", "/about"
+      -# %li= link_to "Code of Conduct", "/conduct"
+      -# %li= link_to "Diversity Statement", "/diversity"
+      -# %li= link_to "Schedule", "/schedule"
+      -# %li= link_to "Scholarships", "/scholarships"
+      -# %li= link_to "Speakers", "/speakers"
+      -# %li= link_to "Sponsors", "/sponsors"
+      -# %li= link_to "Tickets", "https://ti.to/osfeels/open-source-feelings-2016", target: "_blank"
