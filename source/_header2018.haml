@@ -14,14 +14,20 @@
   }
 
 %header
-  %h1.logo= link_to "Open Source & Feelings", "/"
-  -# = tag :img, src: "/images/header-logo.png", alt: "Open Source & Feelings"
-  %nav#top{ "aria-label" => "Main Navigation" }
-    %ul{ role: "menubar" }
-      - same_page.each do |item|
-        %li= link_to titlelize(item), "##{item}"
-      - new_page.each do |item, path|
-        %li= link_to titlelize(item), path
+  %a#logo{ href: "/"}
+    %img{ src: "/images/2018/robot.png", alt: "Feelsbot, the OS&F mascot" }
+  .menu
+    %h1
+      Open Source & Feelings
+      %span
+        is a two-day, single-track conference about the intersection of
+        software and the humanities, and how we engage with our communities.
+    %nav#top{ "aria-label" => "Main Navigation" }
+      %ul{ role: "menubar" }
+        - same_page.each do |item|
+          %li= link_to titlelize(item), "##{item}"
+        - new_page.each do |item, path|
+          %li= link_to titlelize(item), path
       -# %li= link_to "About", "/about"
       -# %li= link_to "Code of Conduct", "/conduct"
       -# %li= link_to "Diversity Statement", "/diversity"

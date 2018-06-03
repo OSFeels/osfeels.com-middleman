@@ -1,5 +1,8 @@
 @import "normalize";
 
+// sizes & other variables
+$narrow-column: 11.25rem;
+
 // brand colors
 $red: #ff3e1e;
 $blue: #29335c;
@@ -18,14 +21,51 @@ html {
   background-color: $white;
 }
 
+h1 {
+  margin: 0 0 0 1rem;
+  span {
+    display: block;
+    font-size: 0.66em;
+  }
+}
+
 h2 {
   margin: 0;
   padding: 0;
 }
 
-// structure
+// main page styles
 header {
+  align-items: center;
+  display: flex;
+  max-width: 60rem;
 
+  #logo {
+    img {
+      $calc: $narrow-column - 1rem;
+      margin: 0.5rem;
+      width: $calc;
+    }
+  }
+
+  nav {
+    ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      list-style: none;
+      padding: 0 0 0 1rem;
+
+      li {
+        padding: 0.1rem 0.25rem;
+      }
+    }
+  }
+
+  .menu {
+    padding: 0 1rem 0 0;
+  }
 }
 
 main {
@@ -41,7 +81,7 @@ main {
   position: absolute;
   left: 0;
   top: 0;
-  width: 11.25rem;
+  width: $narrow-column;
 }
 
 // primary content
@@ -50,7 +90,7 @@ main {
 
   section {
     background: blue;
-    padding: 0 0 0 11.25rem;
+    padding: 0 0 0 $narrow-column;
 
     &#event {
       background: $red;
