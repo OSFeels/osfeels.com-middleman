@@ -18,13 +18,15 @@
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
-page "2018.html", layout: "2018"
-page "2018conduct.html", layout: "2018"
 #
 # A path which all have the same layout
 # with_layout :admin do
 #   page "/admin/*"
 # end
+
+with_layout "2018" do
+  page "/2018/*"
+end
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
