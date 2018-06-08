@@ -9,30 +9,40 @@ $blue: #29335c;
 $gold: #f3a712;
 $teal: #17a398;
 $cream: #f0cea0;
-$black: #1C3A4A;
+$black: #29335C;
 $white: #fff;
 
 // typography & overrides
 html {
-  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 1.4;
-  color: $black;
   background-color: $white;
+  color: $black;
+  font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Rubik";
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: $black;
 }
 
 h1 {
-  margin: 0 0 0 1rem;
+  margin-top: 0;
+  font-size: 3.157em;
+
   span {
     display: block;
     font-size: 0.66em;
   }
 }
 
-h2 {
-  margin: 0;
-  padding: 0;
-}
+h2 {font-size: 2.369em;}
+h3 {font-size: 1.777em;}
+h4 {font-size: 1.333em;}
 
 a {
   border-bottom: 1px solid $blue;
@@ -47,6 +57,10 @@ a {
     outline: none;
   }
 }
+
+p {margin-bottom: 1.3em;}
+
+small, .font_small {font-size: 0.75em;}
 
 // main page styles
 header {
@@ -71,7 +85,7 @@ header {
       flex-wrap: wrap;
       justify-content: flex-start;
       list-style: none;
-      padding: 0 0 0 1rem;
+      padding: 0;
 
       li {
         padding: 0.1rem 0.25rem;
@@ -80,7 +94,7 @@ header {
   }
 
   .menu {
-    padding: 0 1rem 0 0;
+    padding: 0 1rem;
   }
 }
 
