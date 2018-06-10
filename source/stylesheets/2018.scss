@@ -1,7 +1,8 @@
 @import "normalize";
 
 // sizes & other variables
-$narrow-column: 11.25rem;
+$narrow-column: 10rem;
+$content-width: 68rem;
 
 // brand colors
 $red: #ff3e1e;
@@ -66,7 +67,7 @@ small, .font_small {font-size: 0.75em;}
 header {
   align-items: center;
   display: flex;
-  max-width: 60rem;
+  max-width: $content-width;
 
   #logo {
     border: none;
@@ -101,7 +102,7 @@ header {
 main {
   display: flex;
   flex-direction: row;
-  max-width: 60rem;
+  max-width: $content-width;
   min-height: 1350px;
   position: relative;
 }
@@ -110,7 +111,7 @@ main {
 #banner {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 1rem;
   width: $narrow-column;
 }
 
@@ -167,11 +168,7 @@ main {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      padding: 2rem 1rem 0;
-
-      h2 {
-        flex: 0 0 100%;
-      }
+      padding: 2rem 2rem 0;
 
       hr {
         border: 0;
@@ -180,9 +177,13 @@ main {
         margin: 2rem 0 0;
       }
 
+      .column-wide {
+        flex: 0 0 100%;
+      }
+
       .column {
         flex: 1 1;
-        margin-left: 1.2rem;
+        margin-left: 2rem;
 
         &:first-of-type { margin-left: 0; }
       }
