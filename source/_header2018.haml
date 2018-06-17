@@ -1,30 +1,27 @@
 :ruby
-  same_page = %w(
-    event
-    presenters
-    sponsors
-    code_of_conduct
-  )
-
-  new_page = {
-    "tickets"             => "",
-    "prospectus"          => "/2018/prospectus",
-    "diversity_statement" => "/2018/diversity-statement",
-    "about"               => "/2018/about"
+  links = {
+    "event"           => "/2018/#event",
+    "presenters"      => "/2018/#presenters",
+    "code_of_conduct" => "/2018/#code_of_conduct",
+    "sponsorship"     => "/2018/#sponsorship",
+    "tickets"         => ""
   }
 
 %header
-  %a#logo{ href: "/"}
+  #logo
     %img{ src: "/images/2018/robot.png", alt: "Feelsbot, the OS&F mascot" }
-  .menu
-    %h1
+  #lead
+    %nav#top{ "aria-label" => "Main Navigation", "role" => "menubar" }
+      - links.each do |item, path|
+        = link_to titlelize(item), path, class: "nav-#{item}"
+    %h1.masthead
       Open Source & Feelings
-      %span
+      %small
         is a two-day, single-track conference about the intersection of
         software and the humanities, and how we engage with our communities.
-    %nav#top{ "aria-label" => "Main Navigation" }
-      %ul{ role: "menubar" }
-        - same_page.each do |item|
-          %li= link_to titlelize(item), "/2018/##{item}"
-        - new_page.each do |item, path|
-          %li= link_to titlelize(item), path
+    .info
+      %ul.info-event
+        %li October 24 & 25, 2018
+        %li Seattle Central Library
+        %li Seattle, WA
+      %a.info-tickets{ href: "", target: "_blank" } Get Tickets
