@@ -52,16 +52,22 @@ p {
 }
 
 a {
-  color: $blue;
+  background-color: $black;
+  color: $white;
   text-decoration: none;
+  display: inline-block;
+  padding: 0.1em 0.2em;
   transition: all 0.1s ease;
 
-  &:hover, &:focus {
-    color: $gold-highlight;
+  &:visited{
+    background-color: $red;
+    color: #f7efe4;
   }
 
-  &:visited {
-
+  &:hover, &:active, &:focus {
+    background-color: $teal-dark;
+    color: $white;
+    outline: none;
   }
 
   &.button {
