@@ -81,10 +81,6 @@ header {
   flex-wrap: wrap;
   max-width: $header-width;
 
-  > * {
-    margin: 0 auto;
-  }
-
   #top {
     display: flex;
     flex: 0 0 100%;
@@ -172,95 +168,26 @@ header {
   }
 }
 
-main {
-  display: flex;
-  flex-direction: row;
-  max-width: $content-width;
-  min-height: 1350px;
-  position: relative;
-}
-
-// logo banner
-#banner {
-  position: absolute;
-  left: 0;
-  top: 1rem;
-  width: $narrow-column;
-}
-
 // primary content
 #page-content {
-  width: 100%;
+  margin: 0 auto;
+  width: $content-width;
 
-  section {
-    background: blue;
-    padding: 0 0 0 $narrow-column;
+  .section-content {
+    background: $white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-    &#event {
-      background: $red;
-
-      hr {
-        background-image: linear-gradient(to right,
-          rgba(0, 0, 0, 0), $red, rgba(0, 0, 0, 0)
-        );
-      }
+    .column-wide {
+      flex: 0 0 100%;
     }
 
-    &#presenters {
-      background: $teal;
+    .column {
+      flex: 1 1;
+      margin-left: 2rem;
 
-      hr {
-        background-image: linear-gradient(to right,
-          rgba(0, 0, 0, 0), $teal, rgba(0, 0, 0, 0)
-        );
-      }
-    }
-
-    &#prospectus,
-    &#sponsors {
-      background: $gold;
-
-      hr {
-        background-image: linear-gradient(to right,
-          rgba(0, 0, 0, 0), $gold, rgba(0, 0, 0, 0)
-        );
-      }
-    }
-
-    &#code_of_conduct {
-      background: $blue;
-
-      hr {
-        background-image: linear-gradient(to right,
-          rgba(0, 0, 0, 0), $blue, rgba(0, 0, 0, 0)
-        );
-      }
-    }
-
-    .section-content {
-      background: $white;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      padding: 2rem 2rem 0;
-
-      hr {
-        border: 0;
-        flex: 0 0 100%;
-        height: 1px;
-        margin: 2rem 0 0;
-      }
-
-      .column-wide {
-        flex: 0 0 100%;
-      }
-
-      .column {
-        flex: 1 1;
-        margin-left: 2rem;
-
-        &:first-of-type { margin-left: 0; }
-      }
+      &:first-of-type { margin-left: 0; }
     }
   }
 }

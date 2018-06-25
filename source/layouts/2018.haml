@@ -7,7 +7,5 @@
     %meta{ content: "width=device-width, initial-scale=1.0", name: "viewport" }
   %body
     = partial :header2018
-    %main
-      %img#banner{ src: '/images/2018/osftall.svg', alt: 'Open Source & Feelings logo' }
-      #page-content= yield
+    %main#page-content= yield
     = partial :footer2018
