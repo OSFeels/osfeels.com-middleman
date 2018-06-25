@@ -60,7 +60,12 @@
         %label{ for: "mce-EMAIL" }
           Sign up for the latest news from OS&F
       %p
+        %small
+          We will never sell or distribute your email address. Unsubscribe
+          at any time. Questions or concerns? Contact us at
+          %a{ href: "mailto: hello@osfeels.com" } hello@osfeels.com
+      %p
         %input#mce-EMAIL{ name: "EMAIL", placeholder: "your email address", required: "", type: "email", value: "" }
         %div{ style: "position: absolute; left: -5000px;" }
           %input{ name: "b_a5ec8ed0cd20f036f3a0e10cf_3d4585f1c0", tabindex: "-1", type: "text", value: "" }
-        %button#mc-embedded-subscribe{ name: "subscribe", type: "submit", value: "sign up!" } sign up!
+        %button.button#mc-embedded-subscribe{ name: "subscribe", type: "submit", value: "sign up!" } sign up!
