@@ -13,22 +13,8 @@
   }
 
   .section-content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     margin: 0 auto;
     padding: 4rem 0;
     width: $content-width;
-
-    .column-wide {
-      flex: 0 0 100%;
-    }
-
-    .column {
-      flex: 1 1;
-      margin-left: 2rem;
-
-      &:first-of-type { margin-left: 0; }
-    }
   }
 }
