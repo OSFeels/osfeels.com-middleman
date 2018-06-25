@@ -101,14 +101,20 @@ header {
 
 // primary content
 #page-content {
-  margin: 0 auto;
-  width: $content-width;
+  > section {
+    background: $peach;
+
+    &:nth-child(even) {
+      background: $white;
+    }
+  }
 
   .section-content {
-    background: $white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0 auto;
+    width: $content-width;
 
     .column-wide {
       flex: 0 0 100%;
