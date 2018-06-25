@@ -13,7 +13,7 @@ html {
 
 h1, h2, h3, h4 {
   font-family: $header-font-family;
-  margin: 1.414em 0 0.5em;
+  margin: 0 0 0.2em;
   line-height: 1.2;
 }
 
@@ -39,14 +39,42 @@ h4 {
   font-size: 1.333em;
 }
 
-
 p {
-  margin-bottom: 1.3em;
+  margin: 0;
+  padding: 0 0 1.5rem;
+
+  &.button-bar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2.5rem 0 0;
+    width: 100%;
+  }
 }
 
 a {
+  color: $blue;
   text-decoration: none;
   transition: all 0.1s ease;
+
+  &:hover, &:focus {
+    color: $gold-highlight;
+  }
+
+  &:visited {
+
+  }
+
+  &.button {
+    background: $teal-dark;
+    border-radius: 0.33rem;
+    font-weight: 700;
+    color: $white;
+    padding: 0.75rem 1.5rem;
+
+    &:hover, &:focus {
+      color: $gold-highlight;
+    }
+  }
 }
 
 small {
