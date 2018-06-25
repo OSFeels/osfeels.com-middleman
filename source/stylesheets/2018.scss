@@ -4,51 +4,20 @@
 
 // main page styles
 header {
-  align-items: flex-start;
   background: $teal-dark;
+
+}
+
+#page-header {
   color: $white;
   font-family: $header-font-family;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
   max-width: $header-width;
 
-  #top {
-    display: flex;
-    flex: 0 0 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
-
-    a {
-      padding: 1rem 0rem;
-      color: $white;
-      border: none;
-      display: block;
-      font-size: 1.5rem;
-      font-weight: 700;
-
-      &:hover, &:focus {
-        border-bottom: 1rem solid $gold-highlight;
-        padding-bottom: 0;
-      }
-
-      &.nav-tickets {
-        background: $black;
-        padding: 1rem 2rem;
-
-        &:hover, &:focus {
-          border: none;
-          color: $gold-highlight;
-        }
-      }
-    }
-  }
   #logo {
-    border: none;
-    flex: 0 1 25%;
-    margin: 4rem 2rem 2rem 4rem;
+    margin: 4rem 2rem 1rem;
 
     img {
       width: 100%;
@@ -58,21 +27,53 @@ header {
   #lead {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    flex: 1 1;
     justify-content: space-between;
 
+    #top {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0;
+
+      a {
+        padding: 1rem 0rem;
+        color: $white;
+        border: none;
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 700;
+
+        &:hover, &:focus {
+          border-bottom: 1rem solid $gold-highlight;
+          outline: none;
+          padding-bottom: 0;
+        }
+
+        &.nav-tickets {
+          background: $black;
+          padding: 1rem 2rem;
+
+          &:hover, &:focus {
+            border: none;
+            color: $gold-highlight;
+          }
+        }
+      }
+    }
+
     .masthead {
-      flex: 0 0 100%;
       margin-right: 1rem;
+      margin-bottom: 0;
     }
 
     .info {
       align-items: center;
       display: flex;
-      flex: 1 1;
       justify-content: space-between;
-      margin-right: 1rem;
+      margin: 0 1rem 1rem 0;
+
     }
 
     .info-event {
@@ -81,6 +82,10 @@ header {
       list-style: none;
       margin: 0;
       padding: 0;
+
+      li {
+        margin: 0.5rem 0;
+      }
     }
 
     .info-tickets {
