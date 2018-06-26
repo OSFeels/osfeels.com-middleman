@@ -5,24 +5,24 @@ header {
 #top {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   list-style: none;
   padding: 0;
 
   a {
-    padding: 1rem 0rem;
+    align-items: center;
     background: transparent;
     color: $white;
-    border: none;
-    display: block;
+    display: flex;
     font-size: 1.5rem;
     font-weight: 700;
+    padding: 0;
+    text-align: center;
 
     &:hover, &:focus {
-      border-bottom: 1rem solid $gold-highlight;
+      background: linear-gradient(to bottom, transparent 90%, $gold-highlight 90%);
       outline: none;
-      padding-bottom: 0;
     }
 
     &.nav-tickets {
