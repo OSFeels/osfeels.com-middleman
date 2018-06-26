@@ -6,6 +6,6 @@
     %link{ rel: "icon", href: "/images/favicon.ico", type: "image/x-icon" }
     %meta{ content: "width=device-width, initial-scale=1.0", name: "viewport" }
   %body
-    = partial :header2018
+    = partial current_page.path.match(/index/) ? :header2018 : :interior2018
     %main#page-content= yield
     = partial :footer2018

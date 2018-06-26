@@ -1,0 +1,17 @@
+:ruby
+  links = {
+    "event"           => "/2018/#event",
+    "presenters"      => "/2018/#presenters",
+    "code_of_conduct" => "/2018/conduct",
+    "sponsorship"     => "/2018/#sponsorship",
+    "tickets"         => "https://ti.to/osfeels/2018/"
+  }
+
+%header
+  .interior-header
+    %h1.interior-masthead
+      OS&F
+      %small October 26 & 27, 2018
+    %nav#top{ "aria-label" => "Main Navigation", "role" => "menubar" }
+      - links.each do |item, path|
+        = link_to titlelize(item), path, class: "nav-#{item}"
