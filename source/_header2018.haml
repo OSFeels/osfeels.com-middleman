@@ -8,21 +8,21 @@
   }
 
 %header
-  #page-header
-    #logo
+  .exterior-header
+    .exterior-logo
       %img{ src: "/images/2018/robot.png", alt: "Feelsbot, the OS&F mascot" }
-    #lead
+    .exterior-lead
       %nav#top{ "aria-label" => "Main Navigation", "role" => "menubar" }
         - links.each do |item, path|
           = link_to titlelize(item), path, class: "nav-#{item}"
-      %h1.masthead
+      %h1.exterior-masthead
         Open Source & Feelings
         %small
           is a two-day, single-track conference about the intersection of
           software and the humanities, and how we engage with our communities.
-      .info
-        %ul.info-event
+      .exterior-info
+        %ul.exterior-info--event
           %li October 26 & 27, 2018
           %li Seattle Central Library
           %li Seattle, WA
-        %a.info-tickets{ href: links["tickets"], target: "_blank" } Get Tickets
+        %a.exterior-info--tickets{ href: links["tickets"], target: "_blank" } Get Tickets

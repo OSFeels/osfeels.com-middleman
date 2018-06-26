@@ -2,7 +2,42 @@ header {
   background: $teal-dark;
 }
 
-#page-header {
+#top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+
+  a {
+    padding: 1rem 0rem;
+    background: transparent;
+    color: $white;
+    border: none;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    &:hover, &:focus {
+      border-bottom: 1rem solid $gold-highlight;
+      outline: none;
+      padding-bottom: 0;
+    }
+
+    &.nav-tickets {
+      background: $black;
+      padding: 1rem 2rem;
+
+      &:hover, &:focus {
+        border: none;
+        color: $gold-highlight;
+      }
+    }
+  }
+}
+
+.exterior-header {
   color: $white;
   font-family: $header-font-family;
   display: flex;
@@ -10,7 +45,7 @@ header {
   margin: 0 auto;
   max-width: $header-width;
 
-  #logo {
+  .exterior-logo {
     margin: 4rem 2rem 1rem;
 
     img {
@@ -18,52 +53,17 @@ header {
     }
   }
 
-  #lead {
+  .exterior-lead {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    #top {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      list-style: none;
-      padding: 0;
-
-      a {
-        padding: 1rem 0rem;
-        background: transparent;
-        color: $white;
-        border: none;
-        display: block;
-        font-size: 1.5rem;
-        font-weight: 700;
-
-        &:hover, &:focus {
-          border-bottom: 1rem solid $gold-highlight;
-          outline: none;
-          padding-bottom: 0;
-        }
-
-        &.nav-tickets {
-          background: $black;
-          padding: 1rem 2rem;
-
-          &:hover, &:focus {
-            border: none;
-            color: $gold-highlight;
-          }
-        }
-      }
-    }
-
-    .masthead {
+    .exterior-masthead {
       margin-right: 1rem;
       margin-bottom: 0;
     }
 
-    .info {
+    .exterior-info {
       align-items: center;
       display: flex;
       justify-content: space-between;
@@ -71,7 +71,7 @@ header {
 
     }
 
-    .info-event {
+    .exterior-info--event {
       color: $gold-light;
       font-size: 2rem;
       list-style: none;
@@ -83,7 +83,7 @@ header {
       }
     }
 
-    .info-tickets {
+    .exterior-info--tickets {
       background: $black;
       border-radius: 0.33rem;
       color: $white;
