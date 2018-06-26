@@ -37,6 +37,34 @@ header {
   }
 }
 
+.interior-header {
+  display: flex;
+
+  .interior-masthead {
+    color: $white;
+    flex: 1;
+    font-family: $header-font-family;
+    margin-left: 1rem;
+
+    small {
+      color: $gold-light;
+      font-size: 0.33em;
+    }
+  }
+
+  #top {
+    flex: 1 1 50%;
+
+    a {
+      height: 100%;
+
+      &.nav-tickets {
+        padding: 0 2rem;
+      }
+    }
+  }
+}
+
 .exterior-header {
   color: $white;
   font-family: $header-font-family;
