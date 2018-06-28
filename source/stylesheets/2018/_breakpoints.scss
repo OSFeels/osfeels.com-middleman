@@ -15,5 +15,5 @@
 }
 
 @mixin big-desktop-up {
-  @media (min-width: 1800px) { @content; }
+  @media (min-width: 1400px) { @content; }
 }

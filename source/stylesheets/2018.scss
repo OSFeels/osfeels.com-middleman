@@ -15,8 +15,17 @@
   }
 
   .section-content {
-    margin: 0 auto;
-    padding: 4rem 0;
-    width: $content-width;
+    max-width: $content-width;
+    padding: 1.33rem;
+
+    @include tablet-landscape-up {
+      margin: 0 auto;
+      padding: 4rem 1.33rem;
+    }
+
+    @include desktop-up {
+      padding: 4rem 0;
+    }
   }
+
 }
