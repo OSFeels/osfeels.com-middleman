@@ -10,6 +10,17 @@ header {
   list-style: none;
   padding: 0;
 
+  @include tablet-landscape-up {
+    left: 1rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  @include big-desktop-up {
+    position: static;
+  }
+
   a {
     align-items: center;
     background: transparent;
@@ -73,11 +84,31 @@ header {
   margin: 0 auto;
   max-width: $header-width;
 
+  @include tablet-landscape-up {
+    position: relative;
+    flex-direction: column;
+  }
+
+  @include desktop-up {
+    flex-direction: row;
+  }
+
   .exterior-logo {
+    display: none;
     margin: 4rem 2rem 1rem;
 
     img {
-      width: 100%;
+      display: block;
+      margin: 0 auto;
+      width: 25%;
+    }
+
+    @include tablet-landscape-up {
+      display: block;
+    }
+
+    @include desktop-up {
+      img { width: 100%; }
     }
   }
 
@@ -85,6 +116,18 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @include tablet-landscape-up {
+      margin: 0 1.33rem;
+    }
+
+    @include desktop-up {
+      margin: 4rem 0;
+    }
+
+    @include big-desktop-up {
+      margin: 0;
+    }
 
     .exterior-masthead {
       margin-right: 1rem;
