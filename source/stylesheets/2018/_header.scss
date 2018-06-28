@@ -1,5 +1,10 @@
 header {
   background: $teal-dark;
+
+  &.sticky {
+    position: sticky;
+    top: 0;    
+  }
 }
 
 #top {
